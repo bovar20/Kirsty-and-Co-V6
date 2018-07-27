@@ -27,16 +27,7 @@ public class CameraFollowBound : MonoBehaviour {
 	public float XMinValue = 0;
 
 
-
-
-
 	void Update()
-	{
-		CameraMovement ();
-	}
-
-
-	void CameraMovement()
 	{
 		//Target Position
 		Vector3 targetPos = target.position;
