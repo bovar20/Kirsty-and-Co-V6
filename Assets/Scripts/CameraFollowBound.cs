@@ -27,7 +27,7 @@ public class CameraFollowBound : MonoBehaviour {
 	public float XMinValue = 0;
 
 
-	void Update()
+	void LateUpdate()
 	{
 		//Target Position
 		Vector3 targetPos = target.position;
