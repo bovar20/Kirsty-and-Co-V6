@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Test Animation.unity
+- path: Assets/Scenes/Wild Woodlands Stop 1.unity
   isLoaded: 1
   isActive: 1
