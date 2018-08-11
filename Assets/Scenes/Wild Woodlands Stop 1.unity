@@ -3717,64 +3717,8 @@ Transform:
   m_Father: {fileID: 1736859596}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!61 &689861668
 BoxCollider2D:
-=======
---- !u!68 &689861668
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 689861666}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: bab9e07d179ec174999961b26409e5c1, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 3.57, y: -0.21}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -0.07254052, y: 0.46904773}
-  - {x: -0.072632074, y: -0.2922538}
---- !u!68 &689861669
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 689861666}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: bab9e07d179ec174999961b26409e5c1, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -3.55, y: -0.21}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: 0.04976344, y: 0.47005028}
-  - {x: 0.049702406, y: -0.28951436}
---- !u!68 &689861670
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 689861666}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: bab9e07d179ec174999961b26409e5c1, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.51}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -3.5002823, y: 0.010495663}
-  - {x: 3.4971619, y: 0.009631634}
---- !u!68 &689861671
-EdgeCollider2D:
->>>>>>> d0680906cb733522894ef766338b3a717384032d
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -3798,12 +3742,6 @@ EdgeCollider2D:
   serializedVersion: 2
   m_Size: {x: 7.01, y: 1.46}
   m_EdgeRadius: 0
-<<<<<<< HEAD
-=======
-  m_Points:
-  - {x: -3.500206, y: 0.0002155304}
-  - {x: 3.4986649, y: -0.00070858}
->>>>>>> d0680906cb733522894ef766338b3a717384032d
 --- !u!1 &700009638
 GameObject:
   m_ObjectHideFlags: 0
