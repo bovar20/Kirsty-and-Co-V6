@@ -12,11 +12,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-<<<<<<< HEAD
-  lastUpdatedAtString: 2018-08-11T02:43:46.715+01:00
-  initializedAtString: 2018-08-10T23:53:31.495+01:00
-=======
-  lastUpdatedAtString: 2018-08-11T13:21:08.402+01:00
-  initializedAtString: 2018-08-11T13:21:07.477+01:00
->>>>>>> 47db74c2eb62b0225364e98074a4a5993c1c53a3
+  lastUpdatedAtString: 2018-08-11T15:38:00.981+01:00
+  initializedAtString: 2018-08-11T13:48:17.625+01:00
   entries: []
