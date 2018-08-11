@@ -14,7 +14,7 @@ public class ScoreManager : MonoBehaviour {
 		text = GetComponent<Text> ();
 
 
-		score = PlayerPrefs.GetInt ("CurrentScore");
+		//score = PlayerPrefs.GetInt ("CurrentScore");
 	}
 
 	void Update()

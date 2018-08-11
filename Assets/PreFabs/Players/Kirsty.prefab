@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4155908539533516}
   - component: {fileID: 212264282963970996}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Right Brow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,7 +36,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4707752882484212}
   - component: {fileID: 212154113074338224}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Left Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52,7 +52,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4548352700171070}
   - component: {fileID: 212449954803585158}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Front Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,7 +68,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4994458300405104}
   - component: {fileID: 212108650809930732}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Right Top Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,7 +84,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4837817615930094}
   - component: {fileID: 212197324193344550}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Right Top Ear Side
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4205199064380834}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Right Leg Copy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115,7 +115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4803698084596538}
   - component: {fileID: 212548503369183674}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty nose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131,7 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4835928884631348}
   - component: {fileID: 212580418315432252}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty-closed-eye  Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,7 +147,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4165629081148322}
   - component: {fileID: 212805446491591178}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Right Bottom Ear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -162,7 +162,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4970164624061702}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -177,7 +177,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4208074914339736}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -193,7 +193,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4774885359964162}
   - component: {fileID: 212154754452477764}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Right Bottom Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -209,7 +209,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4965918837624614}
   - component: {fileID: 212408118994411222}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Left Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -225,7 +225,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4194180469586536}
   - component: {fileID: 212296137011264306}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Left Bottom Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -241,7 +241,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4146080480783126}
   - component: {fileID: 212257709747589994}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Right Hand Fist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -257,7 +257,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4811113936249864}
   - component: {fileID: 212615166044339838}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Right Top Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -273,7 +273,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4968273882919338}
   - component: {fileID: 212330930515561458}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Front Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -289,7 +289,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4363787176963342}
   - component: {fileID: 212418100857482418}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Body Front
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -305,7 +305,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4566292866084118}
   - component: {fileID: 212550179342970180}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Foot Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -321,7 +321,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4531644758391802}
   - component: {fileID: 212593206403902074}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Right Pupil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -336,7 +336,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4258108450091818}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Right Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -352,10 +352,25 @@ GameObject:
   m_Component:
   - component: {fileID: 4432113065677838}
   - component: {fileID: 212862529356574764}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Right Bottom Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1344949376875430
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4816598907415676}
+  m_Layer: 9
+  m_Name: CameraPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -367,7 +382,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4898811670560922}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Left Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -383,7 +398,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4407338349580176}
   - component: {fileID: 212869916825271966}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Right Top Ear Side 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -399,7 +414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4485634127659450}
   - component: {fileID: 212509817338100116}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Right Top Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -414,7 +429,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4960038098160708}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -430,7 +445,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4381236120564226}
   - component: {fileID: 212731837693788836}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Mouth Open 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -446,7 +461,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4707554369214564}
   - component: {fileID: 212825832215561340}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Left Top Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -461,7 +476,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4685464359374242}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Right Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -477,7 +492,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4600107844517596}
   - component: {fileID: 212457791286397064}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Right Bottom Ear Side
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -493,7 +508,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4208439652201640}
   - component: {fileID: 212646031559298764}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Left Bottom Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -509,7 +524,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4443781686897480}
   - component: {fileID: 212367516445113114}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty GunArm Frame 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -525,7 +540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4297232598389746}
   - component: {fileID: 212292572010010426}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -541,7 +556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4899013307745678}
   - component: {fileID: 212535736944682086}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Right Top Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -556,7 +571,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4851038568165330}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Left Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -571,7 +586,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4323008368393048}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -587,7 +602,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4344916958440962}
   - component: {fileID: 212384110928091088}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Left Top Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -603,7 +618,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4973535589096660}
   - component: {fileID: 212468130744408142}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Right Bottom Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -619,7 +634,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4928145046915324}
   - component: {fileID: 212578209450148478}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Right Bottom Ear 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -635,7 +650,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4948655670247348}
   - component: {fileID: 212167584094658224}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Right Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -651,7 +666,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4248689720700078}
   - component: {fileID: 212331285357619800}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Left Hand Fist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -666,7 +681,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4400729035800476}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty CeilingCheck
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -682,7 +697,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4752525798723284}
   - component: {fileID: 212329993424468946}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty-closed-eye Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -698,7 +713,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4643861600836860}
   - component: {fileID: 212440765082304092}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Hand Open Front
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -714,7 +729,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4025650736846630}
   - component: {fileID: 212381981812384746}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Hand Open Front
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -730,7 +745,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4655436265705970}
   - component: {fileID: 212822290136885254}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Left Brow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -746,7 +761,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4573325519133098}
   - component: {fileID: 212665255635663520}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Right Hand Fist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -762,7 +777,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4751633728756736}
   - component: {fileID: 212295005260165368}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Right Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -778,7 +793,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4456193125888042}
   - component: {fileID: 212935867451536540}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Right Main Bow Over Ear Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -794,7 +809,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4280178048101362}
   - component: {fileID: 212455361354037180}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty-mouth-open
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -810,7 +825,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4915550983960146}
   - component: {fileID: 212855095647642716}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Right Top Ear 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -825,7 +840,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4224414686523880}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Face
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -841,7 +856,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4918600734719534}
   - component: {fileID: 212033180340430682}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty GunArm Frame 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -857,7 +872,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4172820514036400}
   - component: {fileID: 212438429289774358}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty GunArm Frame 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -873,7 +888,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4263492797334020}
   - component: {fileID: 212788103004791982}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Mouth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -889,7 +904,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4821268807317390}
   - component: {fileID: 212948304372121874}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Right Top Ear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -905,7 +920,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4790939583443268}
   - component: {fileID: 212122665543054062}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Right Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -921,7 +936,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4229618220702768}
   - component: {fileID: 212526934487207892}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Left Pupil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -937,7 +952,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4260225605910974}
   - component: {fileID: 212324029716592754}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Right Bottom Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -952,7 +967,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4255230690282876}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ears
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -968,7 +983,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4555945428904898}
   - component: {fileID: 212837845992896436}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty-Hand-Open
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -984,7 +999,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4411111548778788}
   - component: {fileID: 212656189383590362}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1000,7 +1015,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4388515114853844}
   - component: {fileID: 212208990969850096}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Right Bottom Ear Side 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1022,7 +1037,7 @@ GameObject:
   - component: {fileID: 114396798701810772}
   - component: {fileID: 114581977186280446}
   - component: {fileID: 60918618936055186}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1038,7 +1053,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4763741368088494}
   - component: {fileID: 212490330974135816}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty-Hand-Open
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1053,7 +1068,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4731994828015978}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Right Arm Copy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1069,7 +1084,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4246859999813608}
   - component: {fileID: 212341549704540938}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Hand Open Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1085,7 +1100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4323514915340094}
   - component: {fileID: 212773476704735732}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kirsty Front Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1100,7 +1115,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4838389224880908}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1477,7 +1492,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4437231334954948}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4407338349580176
 Transform:
@@ -1527,19 +1542,20 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1899621774689908}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.81, y: -1.42, z: 0.041227}
-  m_LocalScale: {x: 1.6135, y: 1.6135, z: 1.6135}
+  m_LocalPosition: {x: -7.05, y: -2.5, z: 0.10854}
+  m_LocalScale: {x: 2.615161, y: 2.615161, z: 2.615161}
   m_Children:
+  - {fileID: 4816598907415676}
   - {fileID: 4970164624061702}
   - {fileID: 4838389224880908}
-  - {fileID: 4685464359374242}
   - {fileID: 4898811670560922}
   - {fileID: 4258108450091818}
   - {fileID: 4851038568165330}
   - {fileID: 4208074914339736}
   - {fileID: 4205199064380834}
-  - {fileID: 4731994828015978}
   - {fileID: 4400729035800476}
+  - {fileID: 4731994828015978}
+  - {fileID: 4685464359374242}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1699,7 +1715,7 @@ Transform:
   m_Children:
   - {fileID: 4899013307745678}
   m_Father: {fileID: 4437231334954948}
-  m_RootOrder: 2
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4707554369214564
 Transform:
@@ -1743,7 +1759,7 @@ Transform:
   m_Children:
   - {fileID: 4994458300405104}
   m_Father: {fileID: 4437231334954948}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4751633728756736
 Transform:
@@ -1840,6 +1856,19 @@ Transform:
   m_Father: {fileID: 4258108450091818}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -3.5670002}
+--- !u!4 &4816598907415676
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1344949376875430}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.113, y: -0.285, z: -6.2232585}
+  m_LocalScale: {x: 0.6197707, y: 0.6197707, z: 0.6197707}
+  m_Children: []
+  m_Father: {fileID: 4437231334954948}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4821268807317390
 Transform:
   m_ObjectHideFlags: 1
@@ -1892,7 +1921,7 @@ Transform:
   - {fileID: 4323008368393048}
   - {fileID: 4224414686523880}
   m_Father: {fileID: 4437231334954948}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4851038568165330
 Transform:
@@ -2040,7 +2069,7 @@ Transform:
   m_LocalScale: {x: 0.6197707, y: 0.6197707, z: 0.6197707}
   m_Children: []
   m_Father: {fileID: 4437231334954948}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4973535589096660
 Transform:
@@ -2083,7 +2112,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 0.5352851
+  m_Mass: 0.6313161
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 2
@@ -2119,11 +2148,11 @@ PolygonCollider2D:
     - - {x: 0.2043254, y: -0.32454658}
       - {x: 0.0567816, y: -0.34181646}
       - {x: -0.054236792, y: -0.33542827}
-      - {x: -0.06878794, y: -0.43851435}
-      - {x: 0.03404975, y: -0.65302473}
-      - {x: 0.27217636, y: -0.6559923}
-      - {x: 0.2767315, y: -0.64619374}
-      - {x: 0.2235765, y: -0.4984076}
+      - {x: 0.035681132, y: -0.6694462}
+      - {x: 0.23199135, y: -0.6750181}
+      - {x: 0.23918603, y: -0.5570215}
+      - {x: 0.30972174, y: -0.47574404}
+      - {x: 0.3280456, y: -0.44892228}
       - {x: 0.25611344, y: -0.36952946}
 --- !u!61 &61797545829944850
 BoxCollider2D:
@@ -2134,7 +2163,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.07809709, y: -0.11760615}
@@ -2179,13 +2208,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25bc1eb55bd1496dad47e963733cde3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 300
+  m_JumpForce: 400
   m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.05
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 256
   m_GroundCheck: {fileID: 4970164624061702}
   m_CeilingCheck: {fileID: 4400729035800476}
   m_CrouchDisableCollider: {fileID: 0}
@@ -2195,6 +2224,7 @@ MonoBehaviour:
   m_EnableGlide: 0
   m_GlideSpeed: 0
   rb: {fileID: 0}
+  anim: {fileID: 0}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -2217,14 +2247,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Controller: {fileID: 114396798701810772}
-  runSpeed: 200
+  runSpeed: 100
   playerjump: 0
   playercrouch: 0
   isRunning: 0
-  m_EnableSprint: 0
-  m_SprintDelay: 0
-  m_SprintModifier: 0
-  m_SprintTime: 0
+  m_EnableSprint: 1
+  m_SprintDelay: 1.08
+  m_SprintModifier: 2.12
+  m_SprintTime: 1.08
   is_gliding: 0
 --- !u!212 &212025592815877566
 SpriteRenderer:
@@ -2260,7 +2290,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 19
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
