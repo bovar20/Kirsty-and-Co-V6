@@ -10,6 +10,7 @@ TagManager:
   - ground
   - enemies
   - projectiles
+  - enemyHealth
   layers:
   - Default
   - TransparentFX
@@ -25,7 +26,7 @@ TagManager:
   - Checkpoints
   - Electric Orbs
   - Enemy
-  - 
+  - Healthbar
   - 
   - 
   - 
