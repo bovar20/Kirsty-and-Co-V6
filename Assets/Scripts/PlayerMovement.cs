@@ -23,13 +23,13 @@ public class PlayerMovement : MonoBehaviour {
     [Range(1,10)][SerializeField] private float m_SprintTime; // Variable to determine how long the sprint will last 
     public bool is_gliding = false;
     private bool isCrouching = false; //Animation check for if the player is crouching
- 
+    [Range(0.01f, 1)] [SerializeField] private float m_DamageFlickerTime; // Variable to determine how long the sprint will last 
+    private float hide_time = 0;
     public float idleTime; //The maximum amount of time for how long the player has to stand before going into the Idle Animation
     private float idleTimer; //The idle timer timing down to function Idle Animation
     public bool isPressed; //Check if a button is pressed to interupt Idle Animation countdown
     public bool glidingButton; //Check if character is in the air for glide to work with the jump button
-   
-
+    public bool player_hit = false;
 
     void Start()
     {
@@ -173,6 +173,10 @@ public class PlayerMovement : MonoBehaviour {
             is_gliding = false;
         }
         
+        // Player hit code
+       
+
+
 
         // Player re-position code
         //if(transform.position.y < -15) // If the player is out of bounds
@@ -189,6 +193,22 @@ public class PlayerMovement : MonoBehaviour {
         Controller.Move(HorizontalMove * Time.fixedDeltaTime, false, playerjump, is_gliding); // Move the character based on input from the "Input.GetAxisRaw" for horizontal axis. Start crouching or jumping if applicable
         //Time.fixedDeltaTime references the time since the subroutine was last called to allow for consistent speed across platforms
         playerjump = false; // Automatically reset the value of 'playerjump' to prevent continuous jumping
+
+        if(player_hit)
+        {
+            this.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+
+
+            hide_time += Time.deltaTime;
+            Debug.Log(hide_time);
+            if (hide_time >= m_DamageFlickerTime)
+            {
+                player_hit = false;
+                hide_time = 0;
+                this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+
+            }
+        }
     }
     
     void OnCollisionEnter2D(Collision2D collision)
@@ -197,6 +217,11 @@ public class PlayerMovement : MonoBehaviour {
         if(collision.collider.tag == "Wall_Jump") 
         {
                
+        }
+
+        if(collision.collider.tag == "Enemy Projectile")
+        {
+            player_hit = true;
         }
         
     }
