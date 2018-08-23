@@ -1,5 +1,8 @@
 using UnityEngine;
 using UnityEngine.Events;
+using System.Collections;
+using System.Collections.Generic;
+
 
 public class CharacterController2D : MonoBehaviour
 {
@@ -25,6 +28,19 @@ public class CharacterController2D : MonoBehaviour
 	private Vector3 m_Velocity = Vector3.zero; 
     private bool already_jumped = false; // For determining if the character has already jumped
 	public Rigidbody2D rb; // Rigidbody to reference the character rigidbody for glide fumction
+    private Animator anim; //Adds Animator component
+    public PlayerMovement player_m; //Adds PlayerMovement Scripe
+
+
+    public bool shotDelay; //Disable or Enable Fire Buttons
+    private bool shooting; //Shooting Animation to play or not
+    public GameObject projectile; //What projectile is firing
+    public Transform firePoint; //Where the projectile is firing from(in this case the side)
+    public Transform firePointSideUp; //Same as above but the projectile will more diagonally and needs to position the firing point
+    private bool dirKeys; //Tells us we are hitting Direction Keys for Left and Right
+    public bool flipped; // A bool to tell if it has flipped and therefore need to change motion for shot to go other way
+    public float shotSpeed; //How fast is the shot
+    public bool noShootingDash; //Disables firing if Dashing
     
 	[Header("Events")]
 	[Space]
@@ -40,6 +56,12 @@ public class CharacterController2D : MonoBehaviour
  	void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        player_m.GetComponent<PlayerMovement>();
+        flipped = false; // Starts the code off left so no flipping at this stage
+        shooting = false; // Tells Shooting Animation not to play yet
+        shotDelay = false; // Is a bool to delay the shot so that it dosen't fire rapidly
+
     }
 
 
@@ -54,10 +76,74 @@ public class CharacterController2D : MonoBehaviour
 			OnCrouchEvent = new BoolEvent();
 	}
 
+	private void Update()
+	{
+        anim.SetBool("isGrounded", m_Grounded);
+        anim.SetBool("isShootingSide", shooting);
+
+        if (Input.GetAxis("Horizontal") > 0)
+        {
+            // If Key is hitting left
+            flipped = false; // It won't flip
+            dirKeys = true; //Tells us we are hitting Direction Keys for Left and Right
+            player_m.isPressed = true; //A button is pressed with attaches to Idle animation
+
+        }
+        else if (Input.GetAxis("Horizontal") < 0)
+        {
+            flipped = true; //It has flipped and therefore need to change motion for shot to go other way
+            dirKeys = true; //Tells us we are hitting Direction Keys for Left and Right
+            player_m.isPressed = true; //A button is pressed with attaches to Idle animation
+        }
+        else
+        {
+            dirKeys = false; // If no Direction Key is pressed then this bool is false
+        }
+
+        if(Input.GetButtonUp("Fire1"))
+        {
+            shooting = false; //If shooting button is let go, shooting animation will not play
+        }
+
+        if(Input.GetButton("Fire1") && Input.GetAxis("Vertical")  == 0 && !dirKeys && flipped && !shotDelay && !noShootingDash){
+            StartCoroutine (ShootingSideLeftStill ()); //Starts a Timer when pressed to start ShootingSideLeftStill Function
+            shooting = true; //Tells Shooting animation to play
+            player_m.isPressed = true; //A button is pressed with attaches to Idle animation
+        }
+        if(Input.GetButton("Fire1") && Input.GetAxis("Vertical")  == 0 && !dirKeys && !flipped && !shotDelay && !noShootingDash){
+            StartCoroutine (ShootingSideRightStill ());
+            shooting = true; //Tells Shooting animation to play
+            player_m.isPressed = true; //A button is pressed with attaches to Idle animation
+        }
+        if(Input.GetButton("Fire1") && Input.GetAxis("Vertical")  == 0 && dirKeys && !flipped && !shotDelay && !noShootingDash){
+            StartCoroutine (ShootingSideRightRun ());
+            shooting = true; //Tells Shooting animation to play
+            player_m.isPressed = true; //A button is pressed with attaches to Idle animation
+        }
+        if(Input.GetButton("Fire1") && Input.GetAxis("Vertical")  == 0 && dirKeys && flipped && !shotDelay && !noShootingDash){
+            StartCoroutine (ShootingSideLeftRun ());
+            shooting = true; //Tells Shooting animation to play
+            player_m.isPressed = true; //A button is pressed with attaches to Idle animation
+        }
+    
+        if(Input.GetButton("Fire1") && Input.GetAxis("Vertical")  > 0 && dirKeys && !flipped && !shotDelay && !noShootingDash){
+            StartCoroutine (ShootingSideUpRightRun ());
+            shooting = true; //Tells Shooting animation to play
+            player_m.isPressed = true; //A button is pressed with attaches to Idle animation
+        }
+        if(Input.GetButton("Fire1") && Input.GetAxis("Vertical")  > 0 && dirKeys && flipped && !shotDelay && !noShootingDash){
+            StartCoroutine (ShootingSideUpLeftRun ());
+            shooting = true; //Tells Shooting animation to play
+            player_m.isPressed = true; //A button is pressed with attaches to Idle animation
+        }
+
+	}
+
 	private void FixedUpdate()
 	{
 		bool wasGrounded = m_Grounded;
-		m_Grounded = false;
+        m_Grounded = false;
+        player_m.glidingButton = true;
 
 		// The player is grounded if a circlecast to the groundcheck position hits anything designated as ground
 		// This can be done using layers instead but Sample Assets will not overwrite your project settings.
@@ -67,6 +153,7 @@ public class CharacterController2D : MonoBehaviour
 			if (colliders[i].gameObject != gameObject)
 			{
 				m_Grounded = true;
+                player_m.glidingButton = false;
 				if (!wasGrounded)
 					OnLandEvent.Invoke();
 			}
@@ -174,4 +261,73 @@ public class CharacterController2D : MonoBehaviour
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
+
+    IEnumerator ShootingSideLeftRun()
+    {
+        GameObject go = (GameObject)Instantiate(projectile, firePoint.position, Quaternion.identity);
+        go.GetComponent<ProjectileController>().xspeed = -shotSpeed; // Shoots Left while running
+        Vector3 newScale = go.transform.localScale; //These 3 bits of code tell the projectile to flipped with the Character, making the projectile go in the right direction
+        newScale.x *= -1;
+        go.transform.localScale = newScale;
+        shotDelay = true; //Disables fire buttons
+        yield return new WaitForSeconds(0.3f); //Wait 0.3 seconds
+        shotDelay = false; //Enable fire buttons
+    }
+
+    IEnumerator ShootingSideRightRun()
+    {
+        GameObject go = (GameObject)Instantiate(projectile, firePoint.position, Quaternion.identity);
+        go.GetComponent<ProjectileController>().xspeed = shotSpeed; // Shoots Left while running
+        shotDelay = true;
+        Vector3 newScale = go.transform.localScale;
+        newScale.x *= +1;
+        go.transform.localScale = newScale;
+        yield return new WaitForSeconds(0.3f);
+        shotDelay = false;
+    }
+
+    IEnumerator ShootingSideRightStill()
+    {
+        GameObject go = (GameObject)Instantiate(projectile, firePoint.position, Quaternion.identity);
+        go.GetComponent<ProjectileController>().xspeed = shotSpeed; // Shoot Right with no movement while facing right
+        shotDelay = true;
+        Vector3 newScale = go.transform.localScale;
+        newScale.x *= +1;
+        go.transform.localScale = newScale;
+        yield return new WaitForSeconds(0.3f);
+        shotDelay = false;
+    }
+
+    IEnumerator ShootingSideLeftStill()
+    {
+        GameObject go = (GameObject)Instantiate(projectile, firePoint.position, Quaternion.identity);
+        go.GetComponent<ProjectileController>().xspeed = -shotSpeed; // Shoot Left with no movement while facing left
+        Vector3 newScale = go.transform.localScale;
+        newScale.x *= -1;
+        go.transform.localScale = newScale;
+        shotDelay = true;
+        yield return new WaitForSeconds(0.3f);
+        shotDelay = false;
+    }
+
+    IEnumerator ShootingSideUpRightRun()
+    {
+        GameObject go = (GameObject)Instantiate(projectile, firePointSideUp.position, Quaternion.identity);
+        go.GetComponent<ProjectileController>().xspeed = shotSpeed; // Shoots Right and Up while Running
+        go.GetComponent<ProjectileController>().yspeed = shotSpeed;
+        shotDelay = true;
+        yield return new WaitForSeconds(0.3f);
+        shotDelay = false;
+    }
+
+    IEnumerator ShootingSideUpLeftRun()
+    {
+        GameObject go = (GameObject)Instantiate(projectile, firePointSideUp.position, Quaternion.identity);
+        go.GetComponent<ProjectileController>().xspeed = -shotSpeed; // Shoots Left and Up while Running
+        go.GetComponent<ProjectileController>().yspeed = shotSpeed;
+        shotDelay = true;
+        yield return new WaitForSeconds(0.3f);
+        shotDelay = false;
+    }
+
 }

@@ -7,6 +7,10 @@ TagManager:
   - Player_Respawn
   - Kirsty_Player
   - Wall_Jump
+  - ground
+  - enemies
+  - projectiles
+  - enemyHealth
   layers:
   - Default
   - TransparentFX
@@ -17,12 +21,12 @@ TagManager:
   - 
   - 
   - Ground
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Projectile
+  - Checkpoints
+  - Electric Orbs
+  - Enemy
+  - Healthbar
   - 
   - 
   - 

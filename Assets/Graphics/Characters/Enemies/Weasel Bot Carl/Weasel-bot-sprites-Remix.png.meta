@@ -1,0 +1,773 @@
+fileFormatVersion: 2
+guid: 94aa1a65de37f41b180782a9aa7d234d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Weasel-bot-sprites-Remix_0
+    21300002: Weasel-bot-sprites-Remix_1
+    21300004: Weasel-bot-sprites-Remix_3
+    21300006: Weasel-bot-sprites-Remix_4
+    21300008: Weasel-bot-sprites-Remix_5
+    21300010: Weasel-bot-sprites-Remix_2
+    21300012: Weasel-bot-sprites-Remix_6
+    21300014: Weasel-bot-sprites-Remix_7
+    21300016: Weasel-bot-sprites-Remix_8
+    21300018: Weasel-bot-sprites-Remix_9
+    21300020: Weasel-bot-sprites-Remix_10
+    21300022: Weasel-bot-sprites-Remix_11
+    21300024: Weasel-bot-sprites-Remix_12
+    21300026: Weasel-bot-sprites-Remix_13
+    21300028: Weasel-bot-sprites-Remix_14
+    21300030: Weasel-bot-sprites-Remix_15
+    21300032: Weasel-bot-sprites-Remix_16
+    21300034: Weasel-bot-sprites-Remix_17
+    21300036: Weasel-bot-sprites-Remix_18
+    21300038: Weasel-bot-sprites-Remix_19
+    21300040: Weasel-bot-sprites-Remix_20
+    21300042: Weasel-bot-sprites-Remix_21
+    21300044: Weasel-bot-sprites-Remix_22
+    21300046: Weasel-bot-sprites-Remix_23
+    21300048: Weasel-bot-sprites-Remix_24
+    21300050: Weasel-bot-sprites-Remix_25
+    21300052: Weasel-bot-sprites-Remix_26
+    21300054: Weasel-bot-sprites-Remix_27
+    21300056: Weasel-bot-sprites-Remix_28
+    21300058: Weasel-bot-sprites-Remix_29
+    21300060: Weasel-bot-sprites-Remix_30
+    21300062: Weasel-bot-sprites-Remix_31
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1708
+        width: 135
+        height: 122
+      alignment: 9
+      pivot: {x: 0.615416, y: 0.5486034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f76b6e913d0b4cbf810115d6318a863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_1
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1712
+        width: 158
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04b4155263c642308ee426c7d35f0e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_3
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1711
+        width: 158
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a642b295dc9642be8f7ddbee34298f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_4
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1711
+        width: 158
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94cf411b581424407b1bf455a6cc5750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_5
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 1711
+        width: 144
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d79dcabc0fd423182e0ca8356c9b23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_2
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1711
+        width: 158
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1057bdee1d91b45be8cd819dc3f6d07f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_6
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1711
+        width: 158
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019e4451184d044ef89b877dacdb1f69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_7
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1711
+        width: 158
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0ad2e6e24f44dc890f8cae8017b576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_8
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 1711
+        width: 158
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62304f3551b93452ab22e4715c9e58ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_9
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 1711
+        width: 158
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852e57136bb8d483d85d89213fbc03f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_10
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 1715
+        width: 158
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404154877630142c49d5f8e8229cae72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_11
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1540
+        width: 158
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9004bc04dba6c47aa9ad36ca2962b034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_12
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1541
+        width: 158
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bdc36888eaf0447b9821a4a9f26aa11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_13
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1366
+        width: 151
+        height: 123
+      alignment: 9
+      pivot: {x: 0.5860123, y: 0.39440718}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30f07edc05354ca0a7b0544ba598cc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_14
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1366
+        width: 151
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cffb01036f746fb8a12e4e7a6a01ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_15
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1366
+        width: 151
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2472f4de862654ad3a66ce09ec347317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_16
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1366
+        width: 151
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b01d7fcf439a426bb09022bed0f85a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_17
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1366
+        width: 151
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5b6885d8e944981b580c06fd1d8cbf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_18
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1366
+        width: 151
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec47cead2bd74f6e9ede5192ff86885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_19
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 1366
+        width: 151
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f705e8870304c67a26b5dee887c559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_20
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1366
+        width: 151
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadbab05890ea46e8ac0c1e701c81569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_21
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 1366
+        width: 151
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d251c91a0c5c4463e9584c898fcfd843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_22
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1216
+        width: 151
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb937c7a0a4ce438f896779049ae9daa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_23
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1216
+        width: 151
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289cf2b6d2a054829acc35b486e89cef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_24
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1216
+        width: 151
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b6227fec65e4a20bdebef6bdf2471f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_25
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1216
+        width: 151
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f855b66f76fb4af0b6c64812fb07d0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_26
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1216
+        width: 151
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01ac0975b0624d339b1a91af9919fdf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_27
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 1216
+        width: 151
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01be3e9b351764d829afece2db241b70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_29
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1216
+        width: 151
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080849c96732640b9b81dc7448b5a4ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_30
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 1216
+        width: 151
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a11356826fc4ecfa160d70cea94685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weasel-bot-sprites-Remix_31
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1216
+        width: 151
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbea19e61bd9346659fc4881937998c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 24b8a6e79f8b0457a86a331394045d7c
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
