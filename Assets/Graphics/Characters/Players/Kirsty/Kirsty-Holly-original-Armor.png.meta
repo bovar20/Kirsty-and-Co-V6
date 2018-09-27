@@ -1,0 +1,459 @@
+fileFormatVersion: 2
+guid: 72e2ed38b6d2a4fc9b878f7b41804c65
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Kirsty-Holly-original-Armor_arm-top
+    21300002: Kirsty-Holly-original-Armor_arm-top
+    21300004: Kirsty-Holly-original-Armor_leg-top-right
+    21300006: Kirsty-Holly-original-Armor_leg-top-right
+    21300008: Kirsty-Holly-original-Armor_leg-bottom-right
+    21300010: Kirsty-Holly-original-Armor_foot-right
+    21300012: Kirsty-Holly-original-Armor_body
+    21300014: Kirsty-Holly-original-Armor_leg-top-left
+    21300016: Kirsty-Holly-original-Armor_leg-botton-left
+    21300018: Kirsty-Holly-original-Armor-foot-left
+    21300020: Kirsty-Holly-original-Armor_arm-bottom-right
+    21300022: Kirsty-Holly-original-Armor_hand-right
+    21300024: Kirsty-Holly-original-Armor_flower
+    21300026: Kirsty-Holly-original-Armor_hand-left
+    21300028: Kirsty-Holly-original-Armor_arm-bottom-left
+    21300030: Kirsty-Holly-original-Armor_Gunarm-frame1
+    21300032: Kirsty-Holly-original-Armor_Gunarm-Frame2
+    21300034: Kirsty-Holly-original-Armor_Gunarm-Frame3
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kirsty-Holly-original-Armor_arm-top
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 79
+        width: 10
+        height: 20
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b342f6f0a98543848d5a554b3df4a3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-Holly-original-Armor_leg-top-right
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 79
+        width: 6
+        height: 19
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc04dad410124dd59f8ec3f7e8c46f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-Holly-original-Armor_leg-bottom-right
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 62
+        width: 8
+        height: 16
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ecf16a9de384ad389f714bee83cb10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-Holly-original-Armor_foot-right
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 42
+        width: 15
+        height: 11
+      alignment: 9
+      pivot: {x: 0.31439844, y: 0.9640038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f017b212964c4f959ceb34c2ab6aacf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-Holly-original-Armor_body
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 5
+        width: 18
+        height: 22
+      alignment: 9
+      pivot: {x: 0.51718545, y: 0.9218218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ba8e3f2db074c9cbd708c26c82170b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-Holly-original-Armor_leg-top-left
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 75
+        width: 6
+        height: 19
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d012dd2514b364db29e9183fcde04060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-Holly-original-Armor_leg-botton-left
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 58
+        width: 8
+        height: 16
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe992b41ca0e41a897436ec9d94ad63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-Holly-original-Armor-foot-left
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 34
+        width: 15
+        height: 11
+      alignment: 9
+      pivot: {x: 0.33502096, y: 0.9499432}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e907a88be2db4e638a3b184da62f721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-Holly-original-Armor_arm-bottom-right
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 74
+        width: 14
+        height: 22
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bbd0a8661ca40128cbbda5509d86fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-Holly-original-Armor_hand-right
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 53
+        width: 13
+        height: 14
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b5c43aa937e4ec8bf37a9337024ac8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-Holly-original-Armor_flower
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 48
+        width: 18
+        height: 17
+      alignment: 9
+      pivot: {x: 0.98402065, y: 0.49999797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5135ba5013ba148e09e8ba022d908e72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-Holly-original-Armor_hand-left
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 6
+        width: 16
+        height: 18
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd1ee374f1494e6091ce604c5255f1b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-Holly-original-Armor_arm-bottom-left
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 70
+        width: 14
+        height: 22
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3307f987934da4729bb68db7b52c99c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-Holly-original-Armor_Gunarm-frame1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 11
+        width: 14
+        height: 29
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e888ffef014d6417693a3f3a98fff860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-Holly-original-Armor_Gunarm-Frame2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 11
+        width: 14
+        height: 29
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a380ae2f730be4a50ab502aae0dce17e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-Holly-original-Armor_Gunarm-Frame3
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 11
+        width: 14
+        height: 30
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3440fb8501d944020aab530cfb926e5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f2c3f0ec0d67a4f4c84c4804eeeb3ff0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

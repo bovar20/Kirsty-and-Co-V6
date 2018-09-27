@@ -1,0 +1,478 @@
+fileFormatVersion: 2
+guid: c652ce4fb63ce4988b314a19aae7328e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Kirsty-paint-original-Armor_arm&leg-top-right
+    21300002: Kirsty-paint-original-Armor_leg-bottom-right
+    21300004: Kirsty-paint-original-Armor_leg&arm-top-left
+    21300006: Kirsty-paint-original-Armor_leg-bottom-left
+    21300008: Kirsty-paint-original-Armor_foot-right
+    21300010: Kirsty-paint-original-Armor_foot-left
+    21300012: Kirsty-paint-original-Armor_body
+    21300014: Kirsty-paint-original-Armor_hand-right
+    21300016: Kirsty-paint-original-Armor_arm-bottom-right
+    21300018: Kirsty-paint-original-Armor_head
+    21300020: Kirsty-paint-original-Armor_bow-right
+    21300022: Kirsty-paint-original-Armor_bow-left
+    21300024: Kirsty-paint-original-Armor_hand-left
+    21300026: Kirsty-paint-original-Armor_arm-bottom-left
+    21300028: Kirsty-paint-original-Armor_GunArm-Frame1
+    21300030: Kirsty-paint-original-Armor_Gunarm-Frame2
+    21300032: Kirsty-paint-original-Armor_Gunarm-Frame3
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kirsty-paint-original-Armor_arm&leg-top-right
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 79
+        width: 8
+        height: 20
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81645eff848f4085829ffe4e9c35812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-paint-original-Armor_leg-bottom-right
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 62
+        width: 14
+        height: 16
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477744003b86748d597afb2c20191043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-paint-original-Armor_leg&arm-top-left
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 74
+        width: 8
+        height: 20
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d126b0a33398b4ccf8b0109ecc7bed4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-paint-original-Armor_leg-bottom-left
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 57
+        width: 14
+        height: 16
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fee1fd1054894a2c89999c539cdaf2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-paint-original-Armor_foot-right
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 42
+        width: 15
+        height: 11
+      alignment: 9
+      pivot: {x: 0.3248553, y: 0.94582367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b147cb2966a94f3985c23ece81b7dd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-paint-original-Armor_foot-left
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 34
+        width: 15
+        height: 11
+      alignment: 9
+      pivot: {x: 0.33653158, y: 0.96174586}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e475b4c3a1445a287f9c7b28067652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-paint-original-Armor_body
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 5
+        width: 12
+        height: 22
+      alignment: 9
+      pivot: {x: 0.529541, y: 0.90283334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec45fd1e2e9b44d0b36fc92e6bb69d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-paint-original-Armor_hand-right
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 53
+        width: 15
+        height: 15
+      alignment: 9
+      pivot: {x: 0.45273438, y: 0.9726578}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa9809b1d7cb401b94134f4c3352eb7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-paint-original-Armor_arm-bottom-right
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 74
+        width: 14
+        height: 22
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30f8585de82b4fa28524bdcf8a034c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-paint-original-Armor_head
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 6
+        width: 20
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5088623, y: 0.00048585373}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d20ea604f6a14b8dbcd7526448ead90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-paint-original-Armor_bow-right
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 85
+        width: 15
+        height: 9
+      alignment: 9
+      pivot: {x: 0.83861387, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4c11a2ecade4079917e33c06648650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-paint-original-Armor_bow-left
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 72
+        width: 11
+        height: 9
+      alignment: 9
+      pivot: {x: 0.03825517, y: 0.48053995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68b53672a58346a891530f9fd85eef6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-paint-original-Armor_hand-left
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 6
+        width: 16
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5437865, y: 0.96705353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e472175b6e1d442e88a20735256fdaf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-paint-original-Armor_arm-bottom-left
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 70
+        width: 14
+        height: 22
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29882ef8f2494702b47d7d414cb3b1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-paint-original-Armor_GunArm-Frame1
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 11
+        width: 16
+        height: 29
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7d4677856e047788d99e10185a0545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-paint-original-Armor_Gunarm-Frame2
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 11
+        width: 16
+        height: 29
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8bab751d1524dab948e5c215ca1ac0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-paint-original-Armor_Gunarm-Frame3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 11
+        width: 16
+        height: 29
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6cbc57abd344cb19397ad9343c894e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6bf42acf2cb444963aa9338ed3727b48
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
