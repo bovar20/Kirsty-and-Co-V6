@@ -1,7 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+<<<<<<< HEAD
 # Visual Studio for Mac
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{AA69F9FC-476E-9947-A73A-72422275B941}"
+=======
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kirsty-and-Co-V6", "Assembly-CSharp.csproj", "{AA69F9FC-476E-9947-A73A-72422275B941}"
+>>>>>>> b1d0ec5480d3670f2acf0f4c84a521acd76c374b
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
