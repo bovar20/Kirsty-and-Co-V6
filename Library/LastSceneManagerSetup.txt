@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Wild Woodlands Stop 1.unity
+- path: Assets/Scenes/Wild Woodlands Act 1 remake.unity
   isLoaded: 1
   isActive: 1

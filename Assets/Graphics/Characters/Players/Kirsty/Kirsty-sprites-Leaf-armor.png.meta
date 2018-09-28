@@ -1,0 +1,667 @@
+fileFormatVersion: 2
+guid: e0953d6d9dfde4b30be62147b1fbc45c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Kirsty-sprites-Leaf-armor_0
+    21300002: Kirsty-sprites-Leaf-armor_1
+    21300004: Kirsty-sprites-Leaf-armor_2
+    21300006: Kirsty-sprites-Leaf-armor_3
+    21300008: Kirsty-sprites-Leaf-armor_4
+    21300010: Kirsty-sprites-Leaf-armor_5
+    21300012: Kirsty-sprites-Leaf-armor_6
+    21300014: Kirsty-sprites-Leaf-armor_7
+    21300016: Kirsty-sprites-Leaf-armor_8
+    21300018: Kirsty-sprites-Leaf-armor_9
+    21300020: Kirsty-sprites-Leaf-armor_10
+    21300022: Kirsty-sprites-Leaf-armor_11
+    21300024: Kirsty-sprites-Leaf-armor_12
+    21300026: Kirsty-sprites-Leaf-armor_13
+    21300028: Kirsty-sprites-Leaf-armor_14
+    21300030: Kirsty-sprites-Leaf-armor_15
+    21300032: Kirsty-sprites-Leaf-armor_16
+    21300034: Kirsty-sprites-Leaf-armor_17
+    21300036: Kirsty Head HairBand Front
+    21300038: Kirsty-sprites-Leaf-armor_19
+    21300040: Kirsty-sprites-Leaf-armor_20
+    21300042: Kirsty-sprites-Leaf-armor_21
+    21300044: Kirsty-sprites-Leaf-armor_22
+    21300046: Kirsty Head Hairband 3rd
+    21300048: Kirsty Head Hairband side
+    21300050: Kirsty Head Hairband quarter
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kirsty-sprites-Leaf-armor_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 78
+        width: 16
+        height: 20
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e42d46a1237449bfb14581c65d8f085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-sprites-Leaf-armor_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 58
+        width: 14
+        height: 19
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a82f44b89d9f437bbbe573b66ce877f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-sprites-Leaf-armor_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 41
+        width: 15
+        height: 11
+      alignment: 9
+      pivot: {x: 0.29724857, y: 0.92393357}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22070b6935c2d41d4864a0068aa5fe60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-sprites-Leaf-armor_3
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 33
+        width: 15
+        height: 11
+      alignment: 9
+      pivot: {x: 0.3242818, y: 0.96079737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4d80e5dcc2543eb9c42a40953823cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-sprites-Leaf-armor_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 4
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.4999998, y: 0.9078407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac6b9b0178184ce6b1c56dbd43ea79a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-sprites-Leaf-armor_5
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 49
+        width: 14
+        height: 19
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148e70aea06014a6cad22b7f425d65ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-sprites-Leaf-armor_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 49
+        width: 14
+        height: 19
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad2811318bb74eaab9d46492a25b93e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-sprites-Leaf-armor_7
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 52
+        width: 13
+        height: 15
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2be4126451f43efbd3a1c731a1565f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-sprites-Leaf-armor_8
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 73
+        width: 16
+        height: 24
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9e05abf65b4405bb8c00a6a7c2d9e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-sprites-Leaf-armor_9
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 84
+        width: 15
+        height: 9
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a82560d07c814a00a490c3c580f4631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-sprites-Leaf-armor_10
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 71
+        width: 11
+        height: 9
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9bedc610703409babfa5a260052330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-sprites-Leaf-armor_11
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 48
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15b6f1d3381f4928a4c099ae1e03f02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-sprites-Leaf-armor_12
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 69
+        width: 16
+        height: 24
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c047518fc01e04e6dbe585aa5622848e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-sprites-Leaf-armor_13
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 29
+        width: 14
+        height: 13
+      alignment: 9
+      pivot: {x: 0.7461962, y: 0.9678867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645b4a20557f7473ca02b4061ad47738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-sprites-Leaf-armor_14
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 5
+        width: 16
+        height: 18
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e0b686fcf10460a90b1099cacca76c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-sprites-Leaf-armor_15
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 4
+        width: 20
+        height: 22
+      alignment: 9
+      pivot: {x: 0.48986205, y: 0.92393374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b892aeee0ed0f474a93febc092768581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-sprites-Leaf-armor_16
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 10
+        width: 17
+        height: 29
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc70ef910adc47aa932648cbe80b7c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-sprites-Leaf-armor_17
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 10
+        width: 15
+        height: 29
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee87c5baaadaf4f4a8ff296359cb1d77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-sprites-Leaf-armor_19
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 10
+        width: 16
+        height: 29
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4de53cb34c4b430fb60ee7ec86d51f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-sprites-Leaf-armor_20
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 72
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec8f864ea15a47bb9cf64b7fe150163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-sprites-Leaf-armor_21
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 71
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ab2a3e677344376af36dca129bd7ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty-sprites-Leaf-armor_22
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 51
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962d36d3bbcdd430f8806489abd5f6e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty Head HairBand Front
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 60
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66af7c2ba5ba472393ce3fb37e2d1a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty Head Hairband 3rd
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 33
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beedc7c7b22894b379902747f3a82a82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty Head Hairband side
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4515b73366d2e40a5a773deb211602a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirsty Head Hairband quarter
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 68
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb3dbc09569246c5b5eb0607cc78f76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b63b679ef37b3478b84b65386a8645d0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
