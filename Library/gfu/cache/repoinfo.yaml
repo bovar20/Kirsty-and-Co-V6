@@ -12,18 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-<<<<<<< HEAD
-  lastUpdatedAtString: 2018-09-22T03:04:22.456+01:00
-  initializedAtString: 2018-09-22T03:04:22.456+01:00
-=======
-<<<<<<< HEAD
-  lastUpdatedAtString: 2018-07-27T17:05:38.510+01:00
-  initializedAtString: 2018-07-27T17:05:38.510+01:00
-=======
-  lastUpdatedAtString: 2018-08-14T15:38:40.361+01:00
-  initializedAtString: 2018-08-14T15:38:40.361+01:00
->>>>>>> 02467fe00b4d63a369401671b7a4e38e07f86bbe
->>>>>>> b1d0ec5480d3670f2acf0f4c84a521acd76c374b
+  lastUpdatedAtString: 2018-09-27T20:29:18.547+01:00
+  initializedAtString: 2018-09-27T20:29:18.547+01:00
   currentGitRemote:
     name: origin
     url: https://github.com/bovar20/Kirsty-and-Co-V6.git
@@ -44,12 +34,4 @@ MonoBehaviour:
   currentConfigRemote:
     name: origin
     url: https://github.com/bovar20/Kirsty-and-Co-V6.git
-<<<<<<< HEAD
-  currentHead: 15357f6
-=======
-<<<<<<< HEAD
-  currentHead: c69a9ad
-=======
-  currentHead: 15357f6
->>>>>>> 02467fe00b4d63a369401671b7a4e38e07f86bbe
->>>>>>> b1d0ec5480d3670f2acf0f4c84a521acd76c374b
+  currentHead: 61bedba
