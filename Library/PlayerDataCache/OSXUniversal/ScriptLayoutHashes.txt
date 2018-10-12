@@ -1,9 +1,8 @@
 OSXStandalone
 PlayerPath?
-/Volumes/NO NAME/Kirsty and Co Beta V6001 Mac version.app
+/Users/owner1/Desktop/Kirsty & Co Beta v002.app
 SceneListBegin?
-Assets/Scenes/Main Menu.unity
-Assets/Scenes/Wild Woodlands Stop 1.unity
+Assets/Scenes/Wild Woodlands Act 1 remake.unity
 SceneListEnd?
 c422dd62785a6d0afa870fbd111886ce Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 7b803eb2910e9b4cd5e521ae07b9f7d6 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
@@ -19,9 +18,12 @@ c7dd12c15208b0447e101f80038706df UnityEngine.Timeline.dll:UnityEngine.Timeline.A
 0ddb2c46096a1e59e0dce07886ce4769 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 0ddb2c46096a1e59e0dce07886ce4769 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 64f3a13c1277a7f1324321d93d0ec13b UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
-5b3cf673eaf8d0ad458a3b35b8e1dd12 Assembly-CSharp.dll:.PlayerMovement
+036d824548669dd7cf27c0996a4fc34b Assembly-CSharp.dll:.PlayerMovement
+48502bc2240cf31b1fe9838706f2cd19 Assembly-CSharp.dll:.KirstyCustomHead
 f6637497451c9a030c421de4a1ad5cdb Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventHandler
+30083c499b9b67965674eed54776ac89 Assembly-CSharp.dll:.KirstyCustomLegs
 b14b4630cc47b6e9ea8a644551a6a8cc Unity.TextMeshPro.dll:TMPro.TMP_Text
+757ac6e90f5d91ae570204f5d0730d67 Assembly-CSharp.dll:.KirstyCustomBody
 53cefe5d98cadefbab750835e70b89c0 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 486cd95c82d8305219c352c06b776e1f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 da2091a04d360891450faf16cdf621f1 UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -89,6 +91,7 @@ a44114bd4fa541174f78b4bb92bacb48 UnityEngine.UI.dll:UnityEngine.EventSystems.Sta
 e90403eeda069970e0b9de1533de13a6 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 2d58ca16854b99daea8c45e9c0f367b7 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 16da51d1b62ef6d4ee1849350434023b UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+5d91f264376ad4e150d0e35f3e889531 Assembly-CSharp.dll:.KirstyCharacterApperence
 486cd95c82d8305219c352c06b776e1f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 9e61f3535f3c55760a1cedfbd114f4af UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 754551afe4f2531f58476bf14c510657 UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -101,7 +104,7 @@ c7dd12c15208b0447e101f80038706df UnityEngine.Timeline.dll:UnityEngine.Timeline.A
 0ddb2c46096a1e59e0dce07886ce4769 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 0ddb2c46096a1e59e0dce07886ce4769 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 64f3a13c1277a7f1324321d93d0ec13b UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
-b2ed8c6e35abec64f7d1a3d86372bf01 Assembly-CSharp.dll:.EnemyHealthManager
+7ba87fab63a09592189c54b8e8e64c50 Assembly-CSharp.dll:.EnemyHealthManager
 66b3109aa5921cf800bec17926c6adba Unity.TextMeshPro.dll:TMPro.TMP_SubMeshUI
 201273fb4f889724fb090164b7d6c657 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 486cd95c82d8305219c352c06b776e1f UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -126,6 +129,7 @@ e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSyste
 98d69a140ec0084cde3b6a5e09aea295 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 96f3ea9f23b6f08e60710ebb4af49174 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
+a7c4cc6b6f6745acf38a754acbc87cfb Assembly-CSharp.dll:.HealthManager
 02bff89ca785fbfeeabf54265b9252f4 Assembly-CSharp.dll:.CameraFollowBound
 f16835701e71dd5d6fb1fed4b7aff1d8 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 486cd95c82d8305219c352c06b776e1f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
@@ -133,6 +137,7 @@ ca5caae16977e2a6bc77e3b41213525c Assembly-CSharp.dll:.PauseMenu
 c05fddb5f32cbbb445fa8101e344d3ae Assembly-CSharp.dll:.Parallax
 eaf0bcdb10d442a4029d615f41d09957 Unity.TextMeshPro.dll:TMPro.TextContainer
 8f735f3a5f35d9554d308c11646c7b2d Assembly-CSharp.dll:.Camera_Movement
+21c5555d1996a2d093d1dd7f8e04cfa5 Assembly-CSharp.dll:.KirstyCustomArms
 201273fb4f889724fb090164b7d6c657 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 486cd95c82d8305219c352c06b776e1f UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 0f27c39183b9eb95eba0a228bea28273 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -169,7 +174,7 @@ e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSyste
 dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 98a56f4eb3b7847b595767ca1c50eb64 Assembly-CSharp.dll:.DestroyObjectOverTime
 aac9c55ae7ba4b95b852a7d9c191acd1 Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
-1da9f17338ff598a80cbe8e0836276de Assembly-CSharp.dll:.CharacterController2D
+e1f2a7839c43cc6fd846954aad270c91 Assembly-CSharp.dll:.CharacterController2D
 0a006f3734181ba8b26758f0866152c0 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 e04611b8715e6833d2bd7010fc6be10b Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 299e01d3e4330edc6569aacb941ffea5 Assembly-CSharp.dll:.LevelManager
@@ -177,4 +182,4 @@ e04611b8715e6833d2bd7010fc6be10b Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 9318334b30e9f195f573b2ce00154b95 Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 93307bd34e39d73fd24e00ec39c25a91 Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 78cb80ba048caf7173cb3fab2c309fc2 Assembly-CSharp.dll:.CheckPoint
-40fc787e78ed6e1469065af77db7b109 Assembly-CSharp.dll:.MainMenu
+8837cc66f45b7473ff0d086a0b902046 Assembly-CSharp.dll:.MainMenu
