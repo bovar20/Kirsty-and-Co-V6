@@ -1,0 +1,604 @@
+fileFormatVersion: 2
+guid: da528bb75a3fd4b5ea03e6a932c7610f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Rob-sprites-original-Armor_0
+    21300002: Rob-sprites-original-Armor_1
+    21300004: Rob-sprites-original-Armor_2
+    21300006: Rob-sprites-original-Armor_3
+    21300008: Rob-sprites-original-Armor_4
+    21300010: Rob-sprites-original-Armor_5
+    21300012: Rob-sprites-original-Armor_6
+    21300014: Rob-sprites-original-Armor_7
+    21300016: Rob-sprites-original-Armor_8
+    21300018: Rob-sprites-original-Armor_9
+    21300020: Rob-sprites-original-Armor_10
+    21300022: Rob-sprites-original-Armor_11
+    21300024: Rob-sprites-original-Armor_12
+    21300026: Rob-sprites-original-Armor_13
+    21300028: Rob-sprites-original-Armor_14
+    21300030: Rob-sprites-original-Armor_15
+    21300032: Rob-sprites-original-Armor_16
+    21300034: Rob-sprites-original-Armor_17
+    21300036: Rob-sprites-original-Armor_18
+    21300038: Rob-sprites-original-Armor_19
+    21300040: Rob-sprites-original-Armor_20
+    21300042: Rob-sprites-original-Armor_21
+    21300044: Rob-sprites-original-Armor_22
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rob-sprites-original-Armor_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 79
+        width: 8
+        height: 20
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.7570076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43679a0651cd42ceb35646dfa476b3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob-sprites-original-Armor_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 79
+        width: 8
+        height: 20
+      alignment: 9
+      pivot: {x: 0.52215624, y: 0.7658699}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf77a00130e04a86b180c4c721c0186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob-sprites-original-Armor_2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 72
+        width: 8
+        height: 11
+      alignment: 9
+      pivot: {x: 0.47784376, y: 0.8383796}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a52d2773f3fb4a81a2107d426067d82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob-sprites-original-Armor_3
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 72
+        width: 8
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8706062}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c83df097cad34900a312ec805069c3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob-sprites-original-Armor_4
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 54
+        width: 8
+        height: 11
+      alignment: 9
+      pivot: {x: 0.49999952, y: 0.82226634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6d4dc7a3ffa4e0e8439d53f6114ffb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob-sprites-original-Armor_5
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 54
+        width: 8
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.82226634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113965edec4264b08842d3270d1e92d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob-sprites-original-Armor_6
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 42
+        width: 16
+        height: 12
+      alignment: 9
+      pivot: {x: 0.27844143, y: 0.7954108}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a109ff02a645a4675b960f0b1c42247f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob-sprites-original-Armor_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 21
+        width: 16
+        height: 12
+      alignment: 9
+      pivot: {x: 0.3116753, y: 0.7215581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc767e18169e4eadbeab99afe0d9326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob-sprites-original-Armor_8
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 10
+        width: 12
+        height: 17
+      alignment: 9
+      pivot: {x: 0.47045866, y: 0.14550579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b78be19dd1954b07a5b734956f84300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob-sprites-original-Armor_9
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 46
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115ffc8cd2447499e98f7c3f3c4d3d86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob-sprites-original-Armor_10
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 27
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4b7b48926c340f793cb9613db30f0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob-sprites-original-Armor_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 10
+        width: 10
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14550577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac1a15ced6e94a85994d216f98f596f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob-sprites-original-Armor_12
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 17
+        width: 2
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7665f9bcc464d7c8d504624ca1efff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob-sprites-original-Armor_13
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 8
+        width: 4
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eca98e300ce94ff99c347a5e0313226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob-sprites-original-Armor_14
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 9
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4266e91dfb043bb850df86d4954d2a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob-sprites-original-Armor_15
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 33
+        width: 6
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef709bee8af1545ba934bdb33fa1c783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob-sprites-original-Armor_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 33
+        width: 6
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38539727ee200497ab60fed845205880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob-sprites-original-Armor_17
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 45
+        width: 11
+        height: 34
+      alignment: 9
+      pivot: {x: 0.43554688, y: 0.90141183}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7119598525041e9b922199ce09dfe1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob-sprites-original-Armor_18
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 45
+        width: 11
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9170512}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c21c6eb173c4558bcd4da58574bf13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob-sprites-original-Armor_19
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 45
+        width: 11
+        height: 34
+      alignment: 9
+      pivot: {x: 0.48388672, y: 0.92226434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b647a110c508242649e6cd16fcb02ddc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob-sprites-original-Armor_20
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 45
+        width: 11
+        height: 34
+      alignment: 9
+      pivot: {x: 0.45166016, y: 0.9274774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6857cceda8bf4835abb2988311e30ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob-sprites-original-Armor_21
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 45
+        width: 11
+        height: 34
+      alignment: 9
+      pivot: {x: 0.48388672, y: 0.91183805}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae42f934c9f2a487dafde7225990bbd9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rob-sprites-original-Armor_22
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 45
+        width: 11
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.91183805}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5133d9204965340d38ea2372d78435f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8f091c0c2363a4d4ea42cfb11d3620bf
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

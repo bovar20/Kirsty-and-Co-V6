@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Wild Woodlands Act 1 remake.unity
+- path: Assets/Scenes/Testing/Wild Woodland's Healthbar test.unity
   isLoaded: 1
   isActive: 1

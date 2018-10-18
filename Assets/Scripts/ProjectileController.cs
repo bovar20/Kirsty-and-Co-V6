@@ -27,14 +27,13 @@ public class ProjectileController : MonoBehaviour {
 	{
 		if (other.tag == "enemies") 
 		{
-
-			other.GetComponent<EnemyHealthManager> ().giveDamage (damageToGive);
+            other.GetComponent<TreeHealth>().giveDamage(damageToGive);
+            Debug.Log("Bullet is hitting target");
 		}
 		//If this collider hits anything under the Enemy tag, the Enemy's health goes down by amount
 
 
 		Instantiate (impactEffect, transform.position, transform.rotation);
-        Debug.Log("This is working");
 		//This will spawn impact particiles when collider hits enemy. Then destroy's projectile.
 		Destroy (gameObject);
 	}

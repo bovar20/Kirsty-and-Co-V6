@@ -61,12 +61,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BullSteveAI.cs" />
     <Compile Include="Assets\Scripts\Camera_Movement.cs" />
     <Compile Include="Assets\Scripts\CameraFollowBound.cs" />
     <Compile Include="Assets\Scripts\CharacterController2D.cs" />
     <Compile Include="Assets\Scripts\CheckPoint.cs" />
     <Compile Include="Assets\Scripts\CoinPickUp.cs" />
     <Compile Include="Assets\Scripts\DestroyObjectOverTime.cs" />
+    <Compile Include="Assets\Scripts\DrillmoleyRobAI.cs" />
     <Compile Include="Assets\Scripts\EnemyHealthManager.cs" />
     <Compile Include="Assets\Scripts\HealthManager.cs" />
     <Compile Include="Assets\Scripts\KirstyCharacterApperence.cs" />
@@ -81,6 +83,7 @@
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\ProjectileController.cs" />
     <Compile Include="Assets\Scripts\ScoreManager.cs" />
+    <Compile Include="Assets\Scripts\TreeHealth.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
