@@ -12,6 +12,10 @@ TagManager:
   - projectiles
   - enemyHealth
   - Arms
+  - tree
+  - RobEnemy
+  - OwlBotEnemy
+  - BullSteveEnemy
   layers:
   - Default
   - TransparentFX
@@ -29,8 +33,8 @@ TagManager:
   - Enemy
   - Healthbar
   - Logs
-  - 
-  - 
+  - EnemyPhysicBox
+  - Enemy Projectiles
   - 
   - 
   - 

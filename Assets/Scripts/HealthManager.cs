@@ -3,72 +3,78 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HealthManager : MonoBehaviour {
+public class HealthManager : MonoBehaviour
+{
 
-	public int maxPlayerHealth;
+    public int maxPlayerHealth;
 
-	public static int playerHealth;
+    public static int playerHealth;
 
-	//Text text;
+    //Text text;
 
-	public Slider healthBar;
+    public Slider healthBar;
 
-	//private LevelManager levelManager;
+    private LevelManager levelManager;
 
-	//public bool isDead;
+    public bool isDead;
 
-	//private LifeManager lifeSystem;
+    //private LifeManager lifeSystem;
 
-	//private TimeManager theTime;
+    //private TimeManager theTime;
 
-	// Use this for initialization
-	void Start () {
-		//text = GetComponent<Text> ();
+    // Use this for initialization
+    void Start()
+    {
+        //text = GetComponent<Text> ();
 
-		healthBar = GetComponent<Slider> ();
+        healthBar = GetComponent<Slider>();
 
-		playerHealth = maxPlayerHealth;
+        playerHealth = maxPlayerHealth;
 
-		//levelManager = FindObjectOfType<LevelManager> ();
+        levelManager = FindObjectOfType<LevelManager>();
 
-		//lifeSystem = FindObjectOfType<LifeManager> ();
+        //lifeSystem = FindObjectOfType<LifeManager>();
 
-		//theTime = FindObjectOfType<TimeManager> ();
+       //theTime = FindObjectOfType<TimeManager>();
 
-		//isDead = false;
+        isDead = false;
 
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		//if (playerHealth <= 0 && !isDead) 
-		//{
-			//playerHealth = 0;
-			//levelManager.RespawnPlayer ();
-			//lifeSystem.TakeLife ();
-			//isDead = true;
+    }
 
-		//}
-		if (playerHealth > maxPlayerHealth) {
-			playerHealth = maxPlayerHealth;
-		}
+    // Update is called once per frame
+    void Update()
+    {
+        if (playerHealth <= 0 && !isDead)
+        {
+            playerHealth = 0;
+            levelManager.RespawnPlayer();
+            //lifeSystem.TakeLife();
+            isDead = true;
+
+        }
+        if (playerHealth > maxPlayerHealth)
+        {
+            playerHealth = maxPlayerHealth;
+        }
 
 
-		healthBar.value = playerHealth;
-		//text.text = "" + playerHealth;
-	}
+        healthBar.value = playerHealth;
+        //text.text = "" + playerHealth;
+    }
 
-	public static void HurtPlayer(int damageToGive)
-	{
-		playerHealth -= damageToGive;
-	}
+    public static void HurtPlayer(int damageToGive)
+    {
+        playerHealth -= damageToGive;
+    }
 
-	public void FullHealth()
-	{
-		playerHealth = maxPlayerHealth;	
-	}
+    public void FullHealth()
+    {
+        playerHealth = maxPlayerHealth;
+    }
 
-	public void KillPlayer(){
-		playerHealth = 0;
-	}
+    public void KillPlayer()
+    {
+        playerHealth = 0;
+    }
 }
+

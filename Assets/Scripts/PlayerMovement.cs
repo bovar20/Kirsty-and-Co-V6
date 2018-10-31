@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour {
     [Range(1,10)][SerializeField] private float m_SprintTime; // Variable to determine how long the sprint will last 
     public bool is_gliding = false;
     private bool isCrouching = false; //Animation check for if the player is crouching
-    [Range(0.01f, 1)] [SerializeField] private float m_DamageFlickerTime; // Variable to determine how long the sprint will last 
+    private float m_DamageFlickerTime; // Variable to determine how long the sprint will last 
     private float hide_time = 0;
     public float idleTime; //The maximum amount of time for how long the player has to stand before going into the Idle Animation
     private float idleTimer; //The idle timer timing down to function Idle Animation
@@ -38,6 +38,7 @@ public class PlayerMovement : MonoBehaviour {
         //SpawnPosition = transform.position; // Save the initial position of the character
         original_speed = runSpeed; // Save the initial speed of the character
         idleTimer = idleTime; //IdleTimer start with the maximum amount of the value of idleTime
+        m_DamageFlickerTime = 6;
 
     }
     // Update is called once per frame
@@ -196,7 +197,7 @@ public class PlayerMovement : MonoBehaviour {
 
         if(player_hit)
         {
-            this.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+            this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
 
 
             hide_time += Time.deltaTime;
@@ -205,7 +206,7 @@ public class PlayerMovement : MonoBehaviour {
             {
                 player_hit = false;
                 hide_time = 0;
-                this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+                this.gameObject.GetComponent<SpriteRenderer>().enabled = true;
 
             }
         }
@@ -225,6 +226,4 @@ public class PlayerMovement : MonoBehaviour {
         }
         
     }
-
-
 }

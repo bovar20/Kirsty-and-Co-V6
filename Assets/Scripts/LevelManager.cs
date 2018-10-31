@@ -8,8 +8,8 @@ public class LevelManager : MonoBehaviour {
 
 	private CharacterController2D player;
 
-	public GameObject deathParticle;
-	public GameObject respawnParticle;
+	//public GameObject deathParticle;
+	//public GameObject respawnParticle;
 
 	public float respawnDelay;
 
@@ -17,7 +17,20 @@ public class LevelManager : MonoBehaviour {
 
     public int pointPenaltyOnDeath;
 
-	//public HealthManager healthManager;
+	public HealthManager healthManager;
+
+    public DrillmoleyRobAI DrillmoleyRob;
+
+    public GameObject DeadGameObject;
+
+    public bool enemyRespawn = false;
+
+    public bool DrillmoleyRobRespawnPos = false;
+
+    public bool OwlBotRespawn = false;
+
+    public bool BullSteveAreaRespawn = false;
+
 
 	//public TimeManager timeManager;
 
@@ -25,7 +38,7 @@ public class LevelManager : MonoBehaviour {
 	void Start () {
         player = FindObjectOfType<CharacterController2D>();
 
-		//healthManager = FindObjectOfType<HealthManager> ();
+		healthManager = FindObjectOfType<HealthManager> ();
 
 		//timeManager = FindObjectOfType<TimeManager> ();
 	}
@@ -37,27 +50,42 @@ public class LevelManager : MonoBehaviour {
 
 	public void RespawnPlayer()
 	{
-		StartCoroutine ("RespawnPlayerCo");
+		StartCoroutine ("DeadAnimationPlay");
 	}
+
+
+    public IEnumerator DeadAnimationPlay()
+    {
+        player.gameObject.SetActive(false);
+        gravityStore = player.GetComponent<Rigidbody2D>().gravityScale;
+        Instantiate(DeadGameObject, player.transform.position, player.transform.rotation);
+        yield return new WaitForSeconds(2);
+        StartCoroutine("RespawnPlayerCo");
+    }
 
 	public IEnumerator RespawnPlayerCo()
 	{
 		Debug.Log ("Player Respawn");
-		player.enabled = false;
-		Instantiate (deathParticle, player.transform.position, player.transform.rotation);
-		player.gameObject.SetActive (false);
-		//gravityStore = player.GetComponent<Rigidbody2D>().gravityScale;
-		//player.GetComponent<Rigidbody2D> ().velocity = Vector2.zero;
-		yield return new WaitForSeconds (respawnDelay);
-		//player.GetComponent<Rigidbody2D> ().gravityScale = gravityStore;
-		player.transform.position = currentCheckpoint.transform.position;
-		player.enabled = true;                                                                                    
-		player.gameObject.SetActive (true);
-		//healthManager.FullHealth ();
-		//healthManager.isDead = false;
-		ScoreManager.score = 0;
-		Instantiate (respawnParticle, currentCheckpoint.transform.position, currentCheckpoint.transform.rotation);
-		//timeManager.ResetTime ();
+        //Instantiate (deathParticle, player.transform.position, player.transform.rotation);
 
+        yield return new WaitForSeconds(respawnDelay);
+        DrillmoleyRobRespawnPos = true;
+        OwlBotRespawn = true;
+        BullSteveAreaRespawn = true;
+        if (!player.m_FacingRight){
+            player.Flip();
+        }
+        enemyRespawn = true;
+		player.GetComponent<Rigidbody2D> ().gravityScale = gravityStore;
+        player.transform.position = currentCheckpoint.transform.position;
+        player.enabled = true;
+        player.shotDelay = false;
+        player.shooting = false;
+        player.gameObject.SetActive (true);
+        healthManager.FullHealth ();
+		healthManager.isDead = false;
+		ScoreManager.score = 0;
+		//Instantiate (respawnParticle, currentCheckpoint.transform.position, currentCheckpoint.transform.rotation);
+		//timeManager.ResetTime ();
 	}
 }

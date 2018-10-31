@@ -1,9 +1,14 @@
 ﻿<Properties StartupConfiguration="{AA69F9FC-476E-9947-A73A-72422275B941}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DrillmoleyRobAI.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerMovement.cs">
     <Files>
-      <File FileName="Assets/Scripts/BullSteveAI.cs" Line="7" Column="5" />
-      <File FileName="Assets/Scripts/DrillmoleyRobAI.cs" Line="44" Column="64" />
+      <File FileName="Assets/Scripts/LevelManager.cs" Line="32" Column="46" />
+      <File FileName="Assets/Scripts/ProjectileController.cs" Line="45" Column="92" />
+      <File FileName="Assets/Scripts/EnemyHealthManagerDrillRob.cs" Line="14" Column="27" />
+      <File FileName="Assets/Scripts/CharacterController2D.cs" Line="24" Column="18" />
+      <File FileName="Assets/Scripts/BullSteveAreaEnemyHealthManager.cs" Line="51" Column="65" />
+      <File FileName="Assets/Scripts/HurtPlayerOnContact.cs" Line="47" Column="42" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="41" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

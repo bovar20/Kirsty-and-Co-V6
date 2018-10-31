@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\BullSteveAI.cs" />
+    <Compile Include="Assets\Scripts\BullSteveAreaEnemyHealthManager.cs" />
     <Compile Include="Assets\Scripts\Camera_Movement.cs" />
     <Compile Include="Assets\Scripts\CameraFollowBound.cs" />
     <Compile Include="Assets\Scripts\CharacterController2D.cs" />
@@ -69,8 +70,9 @@
     <Compile Include="Assets\Scripts\CoinPickUp.cs" />
     <Compile Include="Assets\Scripts\DestroyObjectOverTime.cs" />
     <Compile Include="Assets\Scripts\DrillmoleyRobAI.cs" />
-    <Compile Include="Assets\Scripts\EnemyHealthManager.cs" />
+    <Compile Include="Assets\Scripts\EnemyHealthManagerDrillRob.cs" />
     <Compile Include="Assets\Scripts\HealthManager.cs" />
+    <Compile Include="Assets\Scripts\HurtPlayerOnContact.cs" />
     <Compile Include="Assets\Scripts\KirstyCharacterApperence.cs" />
     <Compile Include="Assets\Scripts\KirstyCustomArms.cs" />
     <Compile Include="Assets\Scripts\KirstyCustomBody.cs" />
@@ -78,11 +80,16 @@
     <Compile Include="Assets\Scripts\KirstyCustomLegs.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\OwlBotBenAI.cs" />
+    <Compile Include="Assets\Scripts\OwlBotBenEnemyHealthManager.cs" />
+    <Compile Include="Assets\Scripts\OwlbotBenProjectile.cs" />
     <Compile Include="Assets\Scripts\Parallax.cs" />
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\PreserveAnimatorOnDisable.cs" />
     <Compile Include="Assets\Scripts\ProjectileController.cs" />
     <Compile Include="Assets\Scripts\ScoreManager.cs" />
+    <Compile Include="Assets\Scripts\StartingCheckpoint.cs" />
     <Compile Include="Assets\Scripts\TreeHealth.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

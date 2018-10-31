@@ -24,7 +24,7 @@ public class CharacterController2D : MonoBehaviour
 	private bool m_Grounded;            // Whether or not the player is grounded.
 	const float k_CeilingRadius = .2f; // Radius of the overlap circle to determine if the player can stand up
 	private Rigidbody2D m_Rigidbody2D;
-	private bool m_FacingRight = true;  // For determining which way the player is currently facing.
+	public bool m_FacingRight = true;  // For determining which way the player is currently facing.
 	private Vector3 m_Velocity = Vector3.zero; 
     private bool already_jumped = false; // For determining if the character has already jumped
 	public Rigidbody2D rb; // Rigidbody to reference the character rigidbody for glide fumction
@@ -33,7 +33,7 @@ public class CharacterController2D : MonoBehaviour
 
 
     public bool shotDelay; //Disable or Enable Fire Buttons
-    private bool shooting; //Shooting Animation to play or not
+    public bool shooting; //Shooting Animation to play or not
     public GameObject projectile; //What projectile is firing
     public Transform firePoint; //Where the projectile is firing from(in this case the side)
     public Transform firePointSideUp; //Same as above but the projectile will more diagonally and needs to position the firing point
@@ -41,6 +41,8 @@ public class CharacterController2D : MonoBehaviour
     public bool flipped; // A bool to tell if it has flipped and therefore need to change motion for shot to go other way
     public float shotSpeed; //How fast is the shot
     public bool noShootingDash; //Disables firing if Dashing
+    public bool DeadAnimation = false;
+    
     
 	[Header("Events")]
 	[Space]
@@ -58,10 +60,11 @@ public class CharacterController2D : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         player_m.GetComponent<PlayerMovement>();
+       
+
         flipped = false; // Starts the code off left so no flipping at this stage
         shooting = false; // Tells Shooting Animation not to play yet
         shotDelay = false; // Is a bool to delay the shot so that it dosen't fire rapidly
-
     }
 
 
@@ -80,6 +83,7 @@ public class CharacterController2D : MonoBehaviour
 	{
         anim.SetBool("isGrounded", m_Grounded);
         anim.SetBool("isShootingSide", shooting);
+        anim.SetBool("Dead", DeadAnimation);
 
         if (Input.GetAxis("Horizontal") > 0)
         {
@@ -136,7 +140,6 @@ public class CharacterController2D : MonoBehaviour
             shooting = true; //Tells Shooting animation to play
             player_m.isPressed = true; //A button is pressed with attaches to Idle animation
         }
-
 	}
 
 	private void FixedUpdate()
@@ -251,7 +254,7 @@ public class CharacterController2D : MonoBehaviour
 	}
 
 
-	private void Flip()
+	public void Flip()
 	{
 		// Switch the way the player is labelled as facing.
 		m_FacingRight = !m_FacingRight;
@@ -329,5 +332,4 @@ public class CharacterController2D : MonoBehaviour
         yield return new WaitForSeconds(0.3f);
         shotDelay = false;
     }
-
 }

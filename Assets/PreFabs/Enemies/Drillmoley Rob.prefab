@@ -20,10 +20,25 @@ GameObject:
   m_Component:
   - component: {fileID: 4686269810567390}
   - component: {fileID: 212794720929634482}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: DrillmoleyRob Left Bottom Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1050408042344154
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4518972290063120}
+  m_Layer: 16
+  m_Name: SightStart
+  m_TagString: Untagged
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -36,9 +51,29 @@ GameObject:
   m_Component:
   - component: {fileID: 4852520700682156}
   - component: {fileID: 212789697095768534}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Drillmoley Rob Right Top Leg
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1081531899494820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4676373656040232}
+  - component: {fileID: 50503391856398458}
+  - component: {fileID: 60664322208296324}
+  - component: {fileID: 95793276484539954}
+  - component: {fileID: 114770075218232308}
+  - component: {fileID: 114370571746644914}
+  m_Layer: 16
+  m_Name: Drillmoley Rob
+  m_TagString: RobEnemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52,7 +87,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4416649115096934}
   - component: {fileID: 212416665546768556}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: DrillmoleyRob Left Top Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,7 +103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4744316737786132}
   - component: {fileID: 212692561919393188}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: DrillmoleyRob Right Drill Frame1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,7 +119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4394958721124464}
   - component: {fileID: 212618373041793652}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: DrillmoleyRob Right Shoe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4962580103402732}
   - component: {fileID: 212848956226422264}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: DrillmoleyRob Left Top Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116,7 +151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4158185734924042}
   - component: {fileID: 212813306827739412}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: DrillmoleyRob nose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,10 +167,40 @@ GameObject:
   m_Component:
   - component: {fileID: 4116294752087394}
   - component: {fileID: 212177409039168040}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Drill moleyRob Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1488328860606776
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4426503505895994}
+  m_Layer: 16
+  m_Name: SightEnd
+  m_TagString: Untagged
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1489148576233578
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4394203006686100}
+  m_Layer: 16
+  m_Name: WallCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -148,7 +213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4869290354029676}
   - component: {fileID: 212040295960701298}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: DrillmoleyRob Left Drill Frame 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,7 +229,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4288845150572276}
   - component: {fileID: 212228631067160200}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: DrillmoleyRob Left Shoe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -180,7 +245,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4006494939677152}
   - component: {fileID: 212228858165603576}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: DrillmoleyRob Mouth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -196,7 +261,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4256960551349184}
   - component: {fileID: 212901947686065204}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: DrillmoleyRob Right eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -227,7 +292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4461071948698312}
   - component: {fileID: 212941284578270740}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: DrillmoleyRob Hat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -243,7 +308,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4484928432638296}
   - component: {fileID: 212596835281739514}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: DrillmoleyRob Right Top Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -259,7 +324,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4676158255027876}
   - component: {fileID: 212543425714609570}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: DrillmoleyRob Right Eyebrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -275,7 +340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4661326721658660}
   - component: {fileID: 212831763093148352}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: DrillmoleyRob Left Drill Frame 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -290,7 +355,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4566122804692814}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: DrillmoleyRob Face
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -305,7 +370,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4571099462703786}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: DrillmoleyRob Right Drill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -321,7 +386,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4659648924990706}
   - component: {fileID: 212319607707612616}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: DrillmoleyRob Right Drill Frame 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -337,7 +402,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4017399279704260}
   - component: {fileID: 212464323080684696}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: DrillmoleyRob Right Drill Frame 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -352,8 +417,25 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4911008147980540}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: DrillmoleyRob Left Drill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1799407188922690
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4499969683152610}
+  - component: {fileID: 60370169645815024}
+  - component: {fileID: 114732800456850744}
+  m_Layer: 13
+  m_Name: Hitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -361,17 +443,16 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &1871536374662328
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4326630866826252}
   - component: {fileID: 212839192050639692}
-  - component: {fileID: 95738081414193458}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: DrillmoleyRob Body
-  m_TagString: Untagged
+  m_TagString: RobEnemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -385,10 +466,25 @@ GameObject:
   m_Component:
   - component: {fileID: 4087243787090560}
   - component: {fileID: 212451688936608612}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: DrillmoleyRob Left eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1886473895045402
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4222107948824832}
+  m_Layer: 0
+  m_Name: RespawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -401,7 +497,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4895513880827590}
   - component: {fileID: 212224622693867480}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: DrillmoleyRob Left Eyebrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -417,7 +513,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4556831585151354}
   - component: {fileID: 212023986001389330}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: DrillmoleyRob Left Drill Frame 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -433,7 +529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4010036540190190}
   - component: {fileID: 212139014975334108}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: DrillmoleyRob Right Bottom Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -500,7 +596,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1399409286352530}
   m_LocalRotation: {x: -0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.014943049, y: 0.14624247, z: 0}
+  m_LocalPosition: {x: -0.01494305, y: 0.14624247, z: 0}
   m_LocalScale: {x: -1.1428571, y: 1, z: 1}
   m_Children:
   - {fileID: 4566122804692814}
@@ -520,6 +616,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4566122804692814}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4222107948824832
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1886473895045402}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.488224, y: 0.88811874, z: 0.2324127}
+  m_LocalScale: {x: -3.0673683, y: 3.505564, z: 3.505564}
+  m_Children: []
+  m_Father: {fileID: 4814546029827820}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4256960551349184
 Transform:
@@ -541,7 +650,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1543379209018454}
   m_LocalRotation: {x: -0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0053129946, y: -0.18744372, z: 0}
+  m_LocalPosition: {x: 0.007, y: -0.091, z: 0}
   m_LocalScale: {x: -0.6878008, y: 0.60466, z: 0.60466}
   m_Children: []
   m_Father: {fileID: 4686269810567390}
@@ -562,8 +671,21 @@ Transform:
   - {fileID: 4116294752087394}
   - {fileID: 4484928432638296}
   - {fileID: 4852520700682156}
-  m_Father: {fileID: 4814546029827820}
+  m_Father: {fileID: 4676373656040232}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4394203006686100
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1489148576233578}
+  m_LocalRotation: {x: -0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.065, y: 0.203, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4676373656040232}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4394958721124464
 Transform:
@@ -592,6 +714,19 @@ Transform:
   m_Father: {fileID: 4326630866826252}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4426503505895994
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1488328860606776}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.06, y: 3.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4676373656040232}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4461071948698312
 Transform:
   m_ObjectHideFlags: 1
@@ -612,12 +747,38 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1660515261554204}
   m_LocalRotation: {x: -0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.076202534, y: 0.1055339, z: 0}
+  m_LocalPosition: {x: 0.07620253, y: 0.1055339, z: 0}
   m_LocalScale: {x: -0.77436566, y: 0.67757, z: 0.67757}
   m_Children:
   - {fileID: 4571099462703786}
   m_Father: {fileID: 4326630866826252}
   m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4499969683152610
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1799407188922690}
+  m_LocalRotation: {x: -0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4676373656040232}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4518972290063120
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1050408042344154}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3, y: 0.37, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4676373656040232}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4556831585151354
 Transform:
@@ -706,6 +867,24 @@ Transform:
   m_Father: {fileID: 4566122804692814}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4676373656040232
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1081531899494820}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.488224, y: 0.505, z: 0.2324127}
+  m_LocalScale: {x: -3.0673683, y: 3.505564, z: 3.505564}
+  m_Children:
+  - {fileID: 4326630866826252}
+  - {fileID: 4518972290063120}
+  - {fileID: 4426503505895994}
+  - {fileID: 4394203006686100}
+  - {fileID: 4499969683152610}
+  m_Father: {fileID: 4814546029827820}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4686269810567390
 Transform:
   m_ObjectHideFlags: 1
@@ -740,10 +919,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1574828897498200}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.064, y: 0.057, z: 0}
-  m_LocalScale: {x: -0.875, y: 1, z: 1}
+  m_LocalPosition: {x: -23.237583, y: -13.04764, z: -10.9121}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4326630866826252}
+  - {fileID: 4676373656040232}
+  - {fileID: 4222107948824832}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -754,7 +934,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1064969424839422}
   m_LocalRotation: {x: -0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.021332918, y: -0.028512213, z: 0}
+  m_LocalPosition: {x: 0.02133292, y: -0.028512213, z: 0}
   m_LocalScale: {x: -1.1428571, y: 1, z: 1}
   m_Children:
   - {fileID: 4010036540190190}
@@ -817,13 +997,98 @@ Transform:
   m_Father: {fileID: 4326630866826252}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &95738081414193458
+--- !u!50 &50503391856398458
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1081531899494820}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!60 &60370169645815024
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1799407188922690}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.18477422, y: 0.11594885}
+      - {x: 0.16726689, y: 0.31974047}
+      - {x: 0.13305876, y: 0.31301957}
+      - {x: -0.10410684, y: 0.3250893}
+      - {x: -0.080737635, y: 0.24966376}
+      - {x: -0.113513105, y: 0.07047121}
+      - {x: -0.1178789, y: -0.23941818}
+      - {x: 0.0920137, y: -0.23941818}
+      - {x: 0.21511589, y: -0.0768902}
+      - {x: 0.36531818, y: -0.04919865}
+      - {x: 0.3621581, y: 0.01991801}
+      - {x: 0.21182522, y: 0.052651796}
+--- !u!60 &60664322208296324
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1081531899494820}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 1
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.10580006, y: 0.3029646}
+      - {x: -0.1108797, y: -0.012272943}
+      - {x: -0.09449663, y: -0.2521918}
+      - {x: 0.122183755, y: -0.2530569}
+      - {x: 0.104655914, y: 0.29812583}
+--- !u!95 &95793276484539954
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1871536374662328}
+  m_GameObject: {fileID: 1081531899494820}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 536ee9a306dfd414bb33de9d66663f94, type: 2}
@@ -835,6 +1100,61 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114370571746644914
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1081531899494820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fec8d259e604a438ce88b3263f0855, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 3
+  runspeed: 0
+  moveRight: 0
+  wallCheck: {fileID: 4394203006686100}
+  wallCheckRadius: 1
+  whatIsWall:
+    serializedVersion: 2
+    m_Bits: 256
+  hittingWall: 0
+  spotted: 0
+  sightStart: {fileID: 4518972290063120}
+  sightEnd: {fileID: 4426503505895994}
+  StartingPoint: {fileID: 4222107948824832}
+  levelMan: {fileID: 0}
+  enemyH: {fileID: 114770075218232308}
+  RobsBody: {fileID: 1871536374662328}
+--- !u!114 &114732800456850744
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1799407188922690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4aec71fe5b7a48bc82da53693c08eaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageToGive: 1
+--- !u!114 &114770075218232308
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1081531899494820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3949046362263490882c4d9696931220, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxEnemyHealth: 3
+  enemyHealth: 0
+  pointsOnDeath: 0
+  RobBody: {fileID: 1871536374662328}
+  poly2d: {fileID: 0}
 --- !u!212 &212023986001389330
 SpriteRenderer:
   m_ObjectHideFlags: 1
