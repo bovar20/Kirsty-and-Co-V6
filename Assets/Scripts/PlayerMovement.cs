@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour {
+public class PlayerMovement : MonoBehaviour
+{
 
     public CharacterController2D Controller; // References the CharacterController2D Script located in player
     private float HorizontalMove = 0f; // Variable to store the returned value from "Input.GetAxisRaw" which represents user input for horizontal movement
@@ -19,8 +20,8 @@ public class PlayerMovement : MonoBehaviour {
     private float sprint_timer = 0; // Variable to store the time that the character is able to sprint
     private float sprint_cooldown = 0; // Variable to store how long the cooldown has been in effect
     private bool on_cooldown = false; // Variable to store if the character is currently on a cooldown
-    [Range(1,10)][SerializeField] private float m_SprintModifier; // Variable to change the modifier for the sprint
-    [Range(1,10)][SerializeField] private float m_SprintTime; // Variable to determine how long the sprint will last 
+    [Range(1, 10)] [SerializeField] private float m_SprintModifier; // Variable to change the modifier for the sprint
+    [Range(1, 10)] [SerializeField] private float m_SprintTime; // Variable to determine how long the sprint will last 
     public bool is_gliding = false;
     private bool isCrouching = false; //Animation check for if the player is crouching
     private float m_DamageFlickerTime; // Variable to determine how long the sprint will last 
@@ -30,6 +31,8 @@ public class PlayerMovement : MonoBehaviour {
     public bool isPressed; //Check if a button is pressed to interupt Idle Animation countdown
     public bool glidingButton; //Check if character is in the air for glide to work with the jump button
     public bool player_hit = false;
+    public GameObject Kirstysbody;
+    public float FlickerTime;
 
     void Start()
     {
@@ -38,7 +41,7 @@ public class PlayerMovement : MonoBehaviour {
         //SpawnPosition = transform.position; // Save the initial position of the character
         original_speed = runSpeed; // Save the initial speed of the character
         idleTimer = idleTime; //IdleTimer start with the maximum amount of the value of idleTime
-        m_DamageFlickerTime = 6;
+        m_DamageFlickerTime = 3;
 
     }
     // Update is called once per frame
@@ -59,8 +62,10 @@ public class PlayerMovement : MonoBehaviour {
         if (idleTimer < 0 && !isPressed)
         {
             idleTimer = 0; //If idle time is below 0 and nothing has been pressed. IdleTimer = 0;
-        } else if (isPressed){
-                idleTimer = idleTime; //idleTimer goes back to the maximum amount to wait of the value of idleTime
+        }
+        else if (isPressed)
+        {
+            idleTimer = idleTime; //idleTimer goes back to the maximum amount to wait of the value of idleTime
             isPressed = false; //A button is pressed with attaches to Idle animation
         }
 
@@ -77,13 +82,16 @@ public class PlayerMovement : MonoBehaviour {
             }
         }
 
-        if (Input.GetButtonDown("Crouch")) {
+        if (Input.GetButtonDown("Crouch"))
+        {
             isCrouching = true; //Tells Crouching Animation to play
             isPressed = true; //A button is pressed with attaches to Idle animation
-        } else if (Input.GetButtonUp("Crouch")){
+        }
+        else if (Input.GetButtonUp("Crouch"))
+        {
             isCrouching = false; //Crouching Animation will not play if Key is up
         }
-        
+
 
         if (Input.GetButtonUp("Sprint") && Input.GetAxis("Horizontal") < 0) // Check if the Right Control key is up to disable sprint
         {
@@ -97,7 +105,7 @@ public class PlayerMovement : MonoBehaviour {
             }
         }
 
-        if (Input.GetButtonDown("Sprint") && Input.GetAxis("Horizontal") > 0 && isRunning && !currently_sprinting && m_EnableSprint && !on_cooldown)  
+        if (Input.GetButtonDown("Sprint") && Input.GetAxis("Horizontal") > 0 && isRunning && !currently_sprinting && m_EnableSprint && !on_cooldown)
         {
             currently_sprinting = true;
             isPressed = true; //A button is pressed with attaches to Idle animation
@@ -107,15 +115,15 @@ public class PlayerMovement : MonoBehaviour {
 
         if (Input.GetButtonDown("Sprint") && Input.GetAxis("Horizontal") < 0 && isRunning && !currently_sprinting && m_EnableSprint && !on_cooldown)
         {
-            currently_sprinting = true; 
+            currently_sprinting = true;
             isPressed = true; //A button is pressed with attaches to Idle animation
             Controller.noShootingDash = true; //Disables fire button on Character Controller 2D
             runSpeed *= m_SprintModifier; // Increase the speed of the character by a factor of 1.5x
         }
 
-        if(currently_sprinting)
+        if (currently_sprinting)
         {
-            if(sprint_timer > m_SprintTime) // Has the character been sprinting for over 2 seconds already?
+            if (sprint_timer > m_SprintTime) // Has the character been sprinting for over 2 seconds already?
             {
                 // Disable the sprint and enable the cooldown
                 currently_sprinting = false;
@@ -128,7 +136,7 @@ public class PlayerMovement : MonoBehaviour {
             sprint_timer = 0; // If the character is not sprinting, the sprint timer must be 0
         }
 
-        if(!currently_sprinting) 
+        if (!currently_sprinting)
         {
             // Reset the character to status before the sprint was enabled
             runSpeed = original_speed;
@@ -136,16 +144,16 @@ public class PlayerMovement : MonoBehaviour {
             Controller.noShootingDash = false; //Enables fire button on Character Controller 2D
         }
 
-        if(on_cooldown)
+        if (on_cooldown)
         {
             sprint_cooldown += Time.deltaTime; // Increment the timer
-            if(sprint_cooldown > m_SprintDelay) // Has the cooldown exceeded the allocated delay?
+            if (sprint_cooldown > m_SprintDelay) // Has the cooldown exceeded the allocated delay?
             {
                 on_cooldown = false; // The cooldown is no longer in effect.
                 sprint_cooldown = 0;
             }
         }
-        
+
         // Running code
         if (Input.GetAxisRaw("Horizontal") > 0 || Input.GetAxisRaw("Horizontal") < 0) // Tell the animator that the character is running
         {
@@ -165,27 +173,28 @@ public class PlayerMovement : MonoBehaviour {
         }
 
         // Gliding code
-        if(Input.GetButtonDown("Jump") && glidingButton)
+        if (Input.GetButtonDown("Jump") && glidingButton)
         {
             is_gliding = true;
             isPressed = true; //A button is pressed with attaches to Idle animation
-        } else 
+        }
+        else
         {
             is_gliding = false;
         }
-        
+
         // Player hit code
-       
+
 
 
 
         // Player re-position code
         //if(transform.position.y < -15) // If the player is out of bounds
         //{
-           // transform.position = SpawnPosition; // Put them back to their initial position
-           
+        // transform.position = SpawnPosition; // Put them back to their initial position
+
         //}
-	}
+    }
 
     // FixedUpdate is called a fixed number of times per second
     private void FixedUpdate()
@@ -195,35 +204,49 @@ public class PlayerMovement : MonoBehaviour {
         //Time.fixedDeltaTime references the time since the subroutine was last called to allow for consistent speed across platforms
         playerjump = false; // Automatically reset the value of 'playerjump' to prevent continuous jumping
 
-        if(player_hit)
+        if (player_hit)
         {
-            this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
 
 
+            if (FlickerTime >= 0.25)
+            {
+                StartCoroutine("flickerTimerOn");
+                Kirstysbody.SetActive(false);
+            }
+            else if (FlickerTime <= 0.24) {
+                StartCoroutine("flickerTimerOff");
+                Kirstysbody.SetActive(true);
+            } 
+            if (FlickerTime >= 0.50){
+                FlickerTime = 0;
+            }
+
+            FlickerTime += Time.deltaTime;
             hide_time += Time.deltaTime;
             Debug.Log(hide_time);
             if (hide_time >= m_DamageFlickerTime)
             {
                 player_hit = false;
                 hide_time = 0;
-                this.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+                FlickerTime = 0;
+                Kirstysbody.SetActive(true);
 
             }
         }
     }
-    
+
     void OnCollisionEnter2D(Collision2D collision)
     {
         //Output the Collider's GameObject's name
-        if(collision.collider.tag == "Wall_Jump") 
+        if (collision.collider.tag == "Wall_Jump")
         {
-               
+
         }
 
-        if(collision.collider.tag == "Enemy Projectile")
+        if (collision.collider.tag == "Enemy Projectile")
         {
             player_hit = true;
         }
-        
+
     }
 }
