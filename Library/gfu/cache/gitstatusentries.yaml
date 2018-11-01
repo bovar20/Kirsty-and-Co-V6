@@ -12,6 +12,108 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-10-31T16:20:45.741+00:00
-  initializedAtString: 2018-10-31T16:20:45.741+00:00
-  entries: []
+  lastUpdatedAtString: 2018-11-01T00:15:40.708+00:00
+  initializedAtString: 2018-10-31T23:05:40.065+00:00
+  entries:
+  - path: .vs/Kirsty-and-Co-V6/xs/sqlite3/storage.ide-shm
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/.vs/Kirsty-and-Co-V6/xs/sqlite3/storage.ide-shm
+    projectPath: .vs/Kirsty-and-Co-V6/xs/sqlite3/storage.ide-shm
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: .vs/Kirsty-and-Co-V6/xs/sqlite3/storage.ide-wal
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/.vs/Kirsty-and-Co-V6/xs/sqlite3/storage.ide-wal
+    projectPath: .vs/Kirsty-and-Co-V6/xs/sqlite3/storage.ide-wal
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: .vs/Kirsty-and-Co-V6/xs/UserPrefs.xml
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/.vs/Kirsty-and-Co-V6/xs/UserPrefs.xml
+    projectPath: .vs/Kirsty-and-Co-V6/xs/UserPrefs.xml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/EditorInstance.json
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Library/EditorInstance.json
+    projectPath: Library/EditorInstance.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/gfu/cache/gitlocks.yaml
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/gitlocks.yaml
+    projectPath: Library/gfu/cache/gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gitstatusentries.yaml
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/gitstatusentries.yaml
+    projectPath: Library/gfu/cache/gitstatusentries.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gittrackingstatus.yaml
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/gittrackingstatus.yaml
+    projectPath: Library/gfu/cache/gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/repoinfo.yaml
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/repoinfo.yaml
+    projectPath: Library/gfu/cache/repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/shadercompiler-UnityShaderCompiler0.log
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Library/shadercompiler-UnityShaderCompiler0.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Temp/__Backupscenes/0.backup
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Temp/__Backupscenes/0.backup
+    projectPath: Temp/__Backupscenes/0.backup
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityLockfile
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityLockfile
+    projectPath: Temp/UnityLockfile
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-02eb4907d3a22484fa64074a8049abd2
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-02eb4907d3a22484fa64074a8049abd2
+    projectPath: Temp/UnityTempFile-02eb4907d3a22484fa64074a8049abd2
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-241049b5a4fc244ab9e1320d166ef6af
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-241049b5a4fc244ab9e1320d166ef6af
+    projectPath: Temp/UnityTempFile-241049b5a4fc244ab9e1320d166ef6af
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-5e27e803a242448baa3f89655ea96ad6
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-5e27e803a242448baa3f89655ea96ad6
+    projectPath: Temp/UnityTempFile-5e27e803a242448baa3f89655ea96ad6
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-7a41344d678f64a8e86bab42721eca5d
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-7a41344d678f64a8e86bab42721eca5d
+    projectPath: Temp/UnityTempFile-7a41344d678f64a8e86bab42721eca5d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-e4f3ca9a5681547829bb1cb58a2137af
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-e4f3ca9a5681547829bb1cb58a2137af
+    projectPath: Temp/UnityTempFile-e4f3ca9a5681547829bb1cb58a2137af
+    originalPath: 
+    status: 1
+    staged: 0
