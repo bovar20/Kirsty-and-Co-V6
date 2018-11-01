@@ -65,7 +65,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4659685665511760}
   m_Layer: 0
-  m_Name: Owlbot Ben
+  m_Name: OwlBot Ben
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -414,6 +414,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageToGive: 1
+  playermove: {fileID: 0}
+  col2d: {fileID: 0}
 --- !u!114 &114769667171803372
 MonoBehaviour:
   m_ObjectHideFlags: 1
