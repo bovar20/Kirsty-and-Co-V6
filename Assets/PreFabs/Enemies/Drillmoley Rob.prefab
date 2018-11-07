@@ -721,7 +721,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1488328860606776}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.06, y: 3.2, z: 0}
+  m_LocalPosition: {x: 3.06, y: 3.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4676373656040232}
@@ -774,7 +774,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1050408042344154}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3, y: 0.37, z: 0}
+  m_LocalPosition: {x: 3.18, y: 0.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4676373656040232}
@@ -1063,8 +1063,8 @@ PolygonCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 1
-  m_UsedByComposite: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -1139,6 +1139,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageToGive: 1
+  playermove: {fileID: 0}
+  col2d: {fileID: 0}
 --- !u!114 &114770075218232308
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1155,6 +1157,10 @@ MonoBehaviour:
   pointsOnDeath: 0
   RobBody: {fileID: 1871536374662328}
   poly2d: {fileID: 0}
+  FlickerTime: 0
+  hide_time: 0
+  Flicker: 0
+  damageToGive: 1
 --- !u!212 &212023986001389330
 SpriteRenderer:
   m_ObjectHideFlags: 1

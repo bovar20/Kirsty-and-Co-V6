@@ -109,12 +109,13 @@ public class CharacterController2D : MonoBehaviour
             shooting = false; //If shooting button is let go, shooting animation will not play
         }
 
-        if(Input.GetButton("Fire1") && Input.GetAxis("Vertical")  == 0 && !dirKeys && flipped && !shotDelay && !noShootingDash){
+        if(Input.GetButton("Fire1") && Input.GetAxis("Vertical")  == 0 && !dirKeys && flipped && !shotDelay && !noShootingDash && !player_m.NoControl){
             StartCoroutine (ShootingSideLeftStill ()); //Starts a Timer when pressed to start ShootingSideLeftStill Function
             shooting = true; //Tells Shooting animation to play
             player_m.isPressed = true; //A button is pressed with attaches to Idle animation
         }
-        if(Input.GetButton("Fire1") && Input.GetAxis("Vertical")  == 0 && !dirKeys && !flipped && !shotDelay && !noShootingDash){
+        if(Input.GetButton("Fire1") && Input.GetAxis("Vertical")  == 0 && !dirKeys && !flipped && !shotDelay && !noShootingDash && !player_m.NoControl)
+        {
             StartCoroutine (ShootingSideRightStill ());
             shooting = true; //Tells Shooting animation to play
             player_m.isPressed = true; //A button is pressed with attaches to Idle animation
@@ -240,12 +241,12 @@ public class CharacterController2D : MonoBehaviour
         { 
             // Add a vertical force to the player.
             m_Grounded = false;
-            m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+            m_Rigidbody2D.velocity = new Vector2(0, m_JumpForce);
         }
         else if (!m_Grounded && jump && !already_jumped && m_DoubleJumpEnabled)
         {
             already_jumped = true;
-            m_Rigidbody2D.AddForce(new Vector2(0f, m_DoubleJumpForce)); //Add vertical force to the player
+            m_Rigidbody2D.velocity = new Vector2(0, m_DoubleJumpForce); //Add vertical force to the player
         }
         if (m_Grounded)
         {
@@ -257,12 +258,16 @@ public class CharacterController2D : MonoBehaviour
 	public void Flip()
 	{
 		// Switch the way the player is labelled as facing.
-		m_FacingRight = !m_FacingRight;
+        if(!player_m.NoControl){
+            m_FacingRight = !m_FacingRight;
+            player_m.knockFromRight = !player_m.knockFromRight;
 
-		// Multiply the player's x local scale by -1.
-		Vector3 theScale = transform.localScale;
-		theScale.x *= -1;
-		transform.localScale = theScale;
+            // Multiply the player's x local scale by -1.
+            Vector3 theScale = transform.localScale;
+            theScale.x *= -1;
+            transform.localScale = theScale;
+        }
+		
 	}
 
     IEnumerator ShootingSideLeftRun()

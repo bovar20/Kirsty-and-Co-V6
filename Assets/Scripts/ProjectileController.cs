@@ -7,8 +7,6 @@ public class ProjectileController : MonoBehaviour {
 	public float xspeed = 0f; //Gives a value of where the projectile is located on the screen in the X axis
 	public float yspeed = 0f; //Same but Y axis
 
-	public int damageToGive; //How much this object gives dameage to the player
-
 	public GameObject impactEffect;
 
     // Update is called once per frame
@@ -25,25 +23,15 @@ public class ProjectileController : MonoBehaviour {
     
 	void OnTriggerEnter2D(Collider2D other)
 	{
-		if (other.tag == "RobEnemy") 
-		{
-            other.GetComponent<EnemyHealthManagerDrillRob>().giveDamage(damageToGive);
-            Debug.Log("Bullet is hitting target");
-		}
 
-        if (other.tag == "tree"){
-            other.GetComponent<TreeHealth>().giveDamage(damageToGive);
-        }
+        //if (other.tag == "tree"){
+            //other.GetComponent<TreeHealth>().giveDamage(damageToGive);
+        //}
         //If this collider hits anything under the Enemy tag, the Enemy's health goes down by amount
 
-        if (other.tag == "OwlBotEnemy")
-        {
-            other.GetComponent<OwlBotBenEnemyHealthManager>().giveDamage(damageToGive);
-        }
-
-        if (other.tag == "BullSteveEnemy"){
-            other.GetComponent<BullSteveAreaEnemyHealthManager>().giveDamage(damageToGive);
-        }
+        //if (other.tag == "BullSteveEnemy"){
+            //other.GetComponent<BullSteveAreaEnemyHealthManager>().giveDamage(damageToGive);
+        //}
 
         Instantiate (impactEffect, transform.position, transform.rotation);
 		//This will spawn impact particiles when collider hits enemy. Then destroy's projectile.

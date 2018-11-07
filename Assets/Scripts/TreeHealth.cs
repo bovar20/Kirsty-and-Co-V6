@@ -22,6 +22,8 @@ public class TreeHealth : MonoBehaviour {
 
     public Animator anim;
 
+    public int damageToGive;
+
     // Use this for initialization
     void Start()
     {
@@ -47,6 +49,14 @@ public class TreeHealth : MonoBehaviour {
     public void giveDamage(int damageToGive)
     {
         treeHealth -= damageToGive;
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "projectiles")
+        {
+            giveDamage(damageToGive);
+        }
     }
 }
 

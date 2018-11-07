@@ -23,6 +23,16 @@ public class BullSteveAreaEnemyHealthManager : MonoBehaviour
 
     public GameObject RespawnBull;
 
+    public float FlickerTime;
+
+    public float hide_time;
+
+    private float m_DamageFlickerTime;
+
+    public bool Flicker = false;
+
+    public int damageToGive; //How much this object gives dameage to the player
+
     // Use this for initialization
     void Start()
     {
@@ -31,6 +41,10 @@ public class BullSteveAreaEnemyHealthManager : MonoBehaviour
         levelMan = FindObjectOfType<LevelManager>();
 
         enemyHealth = maxEnemyHealth;
+
+        m_DamageFlickerTime = 1f;
+        FlickerTime = 0;
+        hide_time = 0;
     }
 
     // Update is called once per frame
@@ -42,6 +56,9 @@ public class BullSteveAreaEnemyHealthManager : MonoBehaviour
             ScoreManager.AddPoints(pointsOnDeath);
             BullStevesbody.SetActive(false);
             BoxCol2d.enabled = false;
+            hide_time = 0;
+            FlickerTime = 0;
+            Flicker = false;
         }
         if (levelMan.BullSteveAreaRespawn)
         {
@@ -50,6 +67,33 @@ public class BullSteveAreaEnemyHealthManager : MonoBehaviour
             BoxCol2d.enabled = true;
             transform.position = RespawnBull.transform.position;
             StartCoroutine("RespawnReset");
+        }
+
+        if (Flicker)
+        {
+            FlickerTime += Time.deltaTime;
+            hide_time += Time.deltaTime;
+
+            if (FlickerTime >= 0.15)
+            {
+                BullStevesbody.SetActive(false);
+            }
+            else if (FlickerTime <= 0.14)
+            {
+                BullStevesbody.SetActive(true);
+            }
+            if (FlickerTime >= 0.30)
+            {
+                FlickerTime = 0;
+            }
+
+            if (hide_time >= m_DamageFlickerTime)
+            {
+                hide_time = 0;
+                FlickerTime = 0;
+                Flicker = false;
+                BullStevesbody.SetActive(true);
+            }
         }
     }
 
@@ -62,6 +106,15 @@ public class BullSteveAreaEnemyHealthManager : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
         levelMan.BullSteveAreaRespawn = false;
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "projectiles" && !Flicker)
+        {
+            giveDamage(damageToGive);
+            Flicker = true;
+        }
     }
 }
 

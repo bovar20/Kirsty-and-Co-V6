@@ -19,13 +19,27 @@ public class EnemyHealthManagerDrillRob : MonoBehaviour {
 
     public PolygonCollider2D poly2d;
 
-	// Use this for initialization
-	void Start () {
+    public float FlickerTime;
+
+    public float hide_time;
+
+    private float m_DamageFlickerTime;
+
+    public bool Flicker = false;
+
+    public int damageToGive; //How much this object gives dameage to the player
+
+    // Use this for initialization
+    void Start () {
 
         enemyHealth = maxEnemyHealth;
 
         poly2d = GetComponent<PolygonCollider2D>();
-	}
+
+        m_DamageFlickerTime = 1f;
+        FlickerTime = 0;
+        hide_time = 0;
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -35,14 +49,53 @@ public class EnemyHealthManagerDrillRob : MonoBehaviour {
 			ScoreManager.AddPoints (pointsOnDeath);
             RobBody.SetActive(false);
             poly2d.enabled = false;
+            Flicker = false;
+            FlickerTime = 0;
+            hide_time = 0;
         } else if (enemyHealth >= 1){
             RobBody.SetActive(true);
             poly2d.enabled = true;
         }
-	}
+
+        if (Flicker)
+        {
+            FlickerTime += Time.deltaTime;
+            hide_time += Time.deltaTime;
+
+            if (FlickerTime >= 0.15)
+            {
+                RobBody.SetActive(false);
+            }
+            else if (FlickerTime <= 0.14)
+            {
+                RobBody.SetActive(true);
+            }
+            if (FlickerTime >= 0.30)
+            {
+                FlickerTime = 0;
+            }
+
+            if (hide_time >= m_DamageFlickerTime)
+            {
+                hide_time = 0;
+                FlickerTime = 0;
+                Flicker = false;
+                RobBody.SetActive(true);
+            }
+        }
+    }
 
 	public void giveDamage(int damageToGive)
 	{
 		enemyHealth -= damageToGive;
 	}
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "projectiles" && !Flicker)
+        {
+            giveDamage(damageToGive);
+            Flicker = true;
+        }
+    }
 }

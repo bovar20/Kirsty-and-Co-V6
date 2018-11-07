@@ -31,6 +31,8 @@ public class LevelManager : MonoBehaviour {
 
     public bool BullSteveAreaRespawn = false;
 
+    public PlayerMovement playerMove;
+
 
 	//public TimeManager timeManager;
 
@@ -39,6 +41,8 @@ public class LevelManager : MonoBehaviour {
         player = FindObjectOfType<CharacterController2D>();
 
 		healthManager = FindObjectOfType<HealthManager> ();
+
+        playerMove = FindObjectOfType<PlayerMovement>();
 
 		//timeManager = FindObjectOfType<TimeManager> ();
 	}
@@ -57,6 +61,7 @@ public class LevelManager : MonoBehaviour {
     public IEnumerator DeadAnimationPlay()
     {
         player.gameObject.SetActive(false);
+        playerMove.player_hit = false;
         gravityStore = player.GetComponent<Rigidbody2D>().gravityScale;
         Instantiate(DeadGameObject, player.transform.position, player.transform.rotation);
         yield return new WaitForSeconds(2);
@@ -85,7 +90,7 @@ public class LevelManager : MonoBehaviour {
         healthManager.FullHealth ();
 		healthManager.isDead = false;
 		ScoreManager.score = 0;
-		//Instantiate (respawnParticle, currentCheckpoint.transform.position, currentCheckpoint.transform.rotation);
-		//timeManager.ResetTime ();
-	}
+        //Instantiate (respawnParticle, currentCheckpoint.transform.position, currentCheckpoint.transform.rotation);
+        //timeManager.ResetTime ();
+    }
 }

@@ -33,6 +33,10 @@ public class PlayerMovement : MonoBehaviour
     public bool player_hit = false;
     public GameObject Kirstysbody;
     public float FlickerTime;
+    public bool knockFromRight;
+    public float knockbackCount;
+    public float knockback;
+    public bool NoControl;
 
     void Start()
     {
@@ -41,7 +45,9 @@ public class PlayerMovement : MonoBehaviour
         //SpawnPosition = transform.position; // Save the initial position of the character
         original_speed = runSpeed; // Save the initial speed of the character
         idleTimer = idleTime; //IdleTimer start with the maximum amount of the value of idleTime
-        m_DamageFlickerTime = 3;
+        m_DamageFlickerTime = 2f;
+        knockbackCount = 0.7f;
+        knockback = 2;
 
     }
     // Update is called once per frame
@@ -70,7 +76,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // Sprinting code
-        if (Input.GetButtonUp("Sprint") && Input.GetAxis("Horizontal") > 0) // Check if the Right Control key is up to disable sprint
+        if (Input.GetButtonUp("Sprint") && Input.GetAxis("Horizontal") > 0 && !NoControl) // Check if the Right Control key is up to disable sprint
         {
             currently_sprinting = false;
             isPressed = true; //A button is pressed with attaches to Idle animation
@@ -93,7 +99,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
-        if (Input.GetButtonUp("Sprint") && Input.GetAxis("Horizontal") < 0) // Check if the Right Control key is up to disable sprint
+        if (Input.GetButtonUp("Sprint") && Input.GetAxis("Horizontal") < 0 && !NoControl) // Check if the Right Control key is up to disable sprint
         {
             currently_sprinting = false;
             isPressed = true; //A button is pressed with attaches to Idle animation
@@ -105,7 +111,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        if (Input.GetButtonDown("Sprint") && Input.GetAxis("Horizontal") > 0 && isRunning && !currently_sprinting && m_EnableSprint && !on_cooldown)
+        if (Input.GetButtonDown("Sprint") && Input.GetAxis("Horizontal") > 0 && isRunning && !currently_sprinting && m_EnableSprint && !on_cooldown && !NoControl)
         {
             currently_sprinting = true;
             isPressed = true; //A button is pressed with attaches to Idle animation
@@ -113,7 +119,7 @@ public class PlayerMovement : MonoBehaviour
             runSpeed *= m_SprintModifier; // Increase the speed of the character by a factor of 1.5x
         }
 
-        if (Input.GetButtonDown("Sprint") && Input.GetAxis("Horizontal") < 0 && isRunning && !currently_sprinting && m_EnableSprint && !on_cooldown)
+        if (Input.GetButtonDown("Sprint") && Input.GetAxis("Horizontal") < 0 && isRunning && !currently_sprinting && m_EnableSprint && !on_cooldown && !NoControl)
         {
             currently_sprinting = true;
             isPressed = true; //A button is pressed with attaches to Idle animation
@@ -155,7 +161,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // Running code
-        if (Input.GetAxisRaw("Horizontal") > 0 || Input.GetAxisRaw("Horizontal") < 0) // Tell the animator that the character is running
+        if (Input.GetAxisRaw("Horizontal") > 0 || Input.GetAxisRaw("Horizontal") < 0 && !NoControl) // Tell the animator that the character is running
         {
             isRunning = true;
             isPressed = true; //A button is pressed with attaches to Idle animation
@@ -166,14 +172,14 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // Jumping code
-        if (Input.GetButtonDown("Jump"))  // Returns a value based on if the user has pressed the button bound to 'Jump'
+        if (Input.GetButtonDown("Jump") && !NoControl)  // Returns a value based on if the user has pressed the button bound to 'Jump'
         {
             playerjump = true; // Tells fixedupdate that the player wishes to jump
             isPressed = true; //A button is pressed with attaches to Idle animation
         }
 
         // Gliding code
-        if (Input.GetButtonDown("Jump") && glidingButton)
+        if (Input.GetButtonDown("Jump") && glidingButton && !NoControl)
         {
             is_gliding = true;
             isPressed = true; //A button is pressed with attaches to Idle animation
@@ -207,14 +213,30 @@ public class PlayerMovement : MonoBehaviour
         if (player_hit)
         {
 
+            if (knockbackCount <= 0)
+            {
+                NoControl = false;
+            }
+            else
+            {
+                if (knockFromRight)
+                {
+                    GetComponent<Rigidbody2D>().velocity = new Vector2(knockback, knockback);
+
+                }
+                if (!knockFromRight)
+                {
+                    GetComponent<Rigidbody2D>().velocity = new Vector2(-knockback, knockback);
+                }
+                knockbackCount -= Time.deltaTime;
+                NoControl = true;
+            }
 
             if (FlickerTime >= 0.25)
             {
-                StartCoroutine("flickerTimerOn");
                 Kirstysbody.SetActive(false);
             }
             else if (FlickerTime <= 0.24) {
-                StartCoroutine("flickerTimerOff");
                 Kirstysbody.SetActive(true);
             } 
             if (FlickerTime >= 0.50){
@@ -223,13 +245,13 @@ public class PlayerMovement : MonoBehaviour
 
             FlickerTime += Time.deltaTime;
             hide_time += Time.deltaTime;
-            Debug.Log(hide_time);
             if (hide_time >= m_DamageFlickerTime)
             {
                 player_hit = false;
                 hide_time = 0;
                 FlickerTime = 0;
                 Kirstysbody.SetActive(true);
+                knockbackCount = 0.7f;
 
             }
         }
