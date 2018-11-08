@@ -1,7 +1,30 @@
 fileFormatVersion: 2
 guid: 83d598f5ac6964b6f9166478150e7bcd
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Holly-sprites-Armor_0
+    21300002: Holly-sprites-Armor_1
+    21300004: Holly-sprites-Armor_2
+    21300006: Holly-sprites-Armor_3
+    21300008: Holly-sprites-Armor_4
+    21300010: Holly-sprites-Armor_5
+    21300012: Holly-sprites-Armor_6
+    21300014: Holly-sprites-Armor_7
+    21300016: Holly-sprites-Armor_8
+    21300018: Holly-sprites-Armor_9
+    21300020: Holly-sprites-Armor_10
+    21300022: Holly-sprites-Armor_11
+    21300024: Holly-sprites-Armor_12
+    21300026: Holly-sprites-Armor_13
+    21300028: Holly-sprites-Armor_14
+    21300030: Holly-sprites-Armor_15
+    21300032: Holly-sprites-Armor_16
+    21300034: Holly-sprites-Armor_17
+    21300036: Holly-sprites-Armor_18
+    21300038: Holly-sprites-Armor_19
+    21300040: Holly-sprites-Armor_20
+    21300042: Holly-sprites-Armor_21
+    21300044: Holly-sprites-Armor_22
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -31,7 +54,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,7 +63,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +92,491 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Holly-sprites-Armor_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 5
+        width: 18
+        height: 22
+      alignment: 9
+      pivot: {x: 0.50884587, y: 0.87636465}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82235cf3963a74e9abaa0ce939a32547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Holly-sprites-Armor_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 32
+        width: 14
+        height: 13
+      alignment: 9
+      pivot: {x: 0.36351585, y: 0.9286992}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f5fd23113a84cc7af1d9ae77aa0312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Holly-sprites-Armor_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 60
+        width: 8
+        height: 18
+      alignment: 9
+      pivot: {x: 0.49999952, y: 0.89807725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec8cadec0c594050ae68e42138bfe1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Holly-sprites-Armor_3
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 60
+        width: 8
+        height: 18
+      alignment: 9
+      pivot: {x: 0.48009562, y: 0.8892314}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d667a4098f5b248398275063fcd5c046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Holly-sprites-Armor_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 60
+        width: 8
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 0.89807725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc12b247ebf9e4f0fbdb45adc105690b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Holly-sprites-Armor_5
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 60
+        width: 8
+        height: 18
+      alignment: 9
+      pivot: {x: 0.48009396, y: 0.8892314}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4d77cb5d401462daafd39b9cc570a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Holly-sprites-Armor_6
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 60
+        width: 8
+        height: 18
+      alignment: 9
+      pivot: {x: 0.49999714, y: 0.8980768}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb8739af57634712a8486710ea7e0fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Holly-sprites-Armor_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 60
+        width: 8
+        height: 18
+      alignment: 9
+      pivot: {x: 0.4800949, y: 0.8892314}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fddedb3ac1abc4d2caedc46e239487d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Holly-sprites-Armor_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 55
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e6ca888b18b4906bfad425a703c28e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Holly-sprites-Armor_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 81
+        width: 10
+        height: 15
+      alignment: 9
+      pivot: {x: 0.32484514, y: 0.74415386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6c2e458c1d14dfd8b2ef6acfbd7036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Holly-sprites-Armor_10
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 81
+        width: 10
+        height: 15
+      alignment: 9
+      pivot: {x: 0.29299927, y: 0.7335383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25af6c91764d445909384170c386419f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Holly-sprites-Armor_11
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 75
+        width: 6
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5265376, y: 0.83293706}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebd164f303bb4d82bca23aaa53bdd21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Holly-sprites-Armor_12
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 57
+        width: 6
+        height: 11
+      alignment: 9
+      pivot: {x: 0.49999937, y: 0.8618885}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e390ce8cfa9046f19cd79b0da9cad41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Holly-sprites-Armor_13
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 32
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf9b69b8b4054607889ec736c8fbcc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Holly-sprites-Armor_14
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 42
+        width: 6
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0c77402bc3f4dcfb4004b349ce0b14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Holly-sprites-Armor_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 42
+        width: 6
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f421050e29a4ef6bccae2722860241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Holly-sprites-Armor_16
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 37
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0165289137b4898bf5afe9a41dad48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Holly-sprites-Armor_17
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 23
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ba651191aa549eeb4e1b44b03c91c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Holly-sprites-Armor_18
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 30
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a544e5b515fd482aa5cd14553c40f6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Holly-sprites-Armor_19
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 35
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf11b9ef6728641efb7d34adfb8c3867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Holly-sprites-Armor_20
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 16
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3150375c606d64bf6a2886cfda506c84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Holly-sprites-Armor_21
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 7
+        width: 4
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520055cbcf01246f2872429e6226cff7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Holly-sprites-Armor_22
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 6
+        width: 17
+        height: 21
+      alignment: 9
+      pivot: {x: 0.52809906, y: 0.052636124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae889dd8a023f4e2db9ba2326a215728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
