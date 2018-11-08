@@ -12,9 +12,1055 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-11-01T17:27:19.969+00:00
-  initializedAtString: 2018-11-01T17:27:19.969+00:00
+  lastUpdatedAtString: 2018-11-08T16:45:33.502+00:00
+  initializedAtString: 2018-11-08T16:45:33.502+00:00
   log:
+  - commitID: a717b4bff2e04e9458d692dc07b95054f8752bb1
+    mergeA: 
+    mergeB: 
+    authorName: Stuart Maiden
+    authorEmail: stuartmaiden@studio2.local
+    commitEmail: stuartmaiden@studio2.local
+    commitName: Stuart Maiden
+    summary: Boss development
+    description: Boss development
+    timeString: 2018-11-08T16:45:22.000+00:00
+    commitTimeString: 2018-11-08T16:45:22.000+00:00
+    changes:
+    - path: Assembly-CSharp.csproj
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Graphics/Characters/Bosses/Holly-sprites-Armor.png.meta
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Graphics/Characters/Bosses/Holly-sprites-Armor.png.meta
+      projectPath: Assets/Graphics/Characters/Bosses/Holly-sprites-Armor.png.meta
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/EditorInstance.json
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/EditorInstance.json
+      projectPath: Library/EditorInstance.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll.mdb
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll.mdb
+      projectPath: Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll.mdb
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll.mdb
+      projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Unity.TextMeshPro.dll.mdb
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/ScriptAssemblies/Unity.TextMeshPro.dll.mdb
+      projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/UnityEditor.StandardEvents.dll.mdb
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll.mdb
+      projectPath: Library/ScriptAssemblies/UnityEditor.StandardEvents.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/00/004d70d21328c4e868f858f7f2b8b072
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/00/004d70d21328c4e868f858f7f2b8b072
+      projectPath: Library/metadata/00/004d70d21328c4e868f858f7f2b8b072
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9
+      projectPath: Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/13/136dc24f151211d438acee17aff4e934
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/13/136dc24f151211d438acee17aff4e934
+      projectPath: Library/metadata/13/136dc24f151211d438acee17aff4e934
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/18/184188f9d73a54520a0d79b490a526ea
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/18/184188f9d73a54520a0d79b490a526ea
+      projectPath: Library/metadata/18/184188f9d73a54520a0d79b490a526ea
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/1b/1b632b68aaa394193ba589b9aa47ed10
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/1b/1b632b68aaa394193ba589b9aa47ed10
+      projectPath: Library/metadata/1b/1b632b68aaa394193ba589b9aa47ed10
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/20/20fec8d259e604a438ce88b3263f0855
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/20/20fec8d259e604a438ce88b3263f0855
+      projectPath: Library/metadata/20/20fec8d259e604a438ce88b3263f0855
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/54/54833e41ba6fe4ab0ac4a3dde242f732
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/54/54833e41ba6fe4ab0ac4a3dde242f732
+      projectPath: Library/metadata/54/54833e41ba6fe4ab0ac4a3dde242f732
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/68/68938408fa6f04c6a90bce889aa9149c
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/68/68938408fa6f04c6a90bce889aa9149c
+      projectPath: Library/metadata/68/68938408fa6f04c6a90bce889aa9149c
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/74/74d2bc012ee1b4e30bc817ec2dbd157c
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/74/74d2bc012ee1b4e30bc817ec2dbd157c
+      projectPath: Library/metadata/74/74d2bc012ee1b4e30bc817ec2dbd157c
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/76/765920c58617c4a77b363746f986bc43
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/76/765920c58617c4a77b363746f986bc43
+      projectPath: Library/metadata/76/765920c58617c4a77b363746f986bc43
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/79/79696e91281f84da0b97475fc176d38f
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/79/79696e91281f84da0b97475fc176d38f
+      projectPath: Library/metadata/79/79696e91281f84da0b97475fc176d38f
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/83/83d598f5ac6964b6f9166478150e7bcd
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/83/83d598f5ac6964b6f9166478150e7bcd
+      projectPath: Library/metadata/83/83d598f5ac6964b6f9166478150e7bcd
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/83/83d598f5ac6964b6f9166478150e7bcd.info
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/83/83d598f5ac6964b6f9166478150e7bcd.info
+      projectPath: Library/metadata/83/83d598f5ac6964b6f9166478150e7bcd.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/9d/9df36259343cc4680912716fb9d17276
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/9d/9df36259343cc4680912716fb9d17276
+      projectPath: Library/metadata/9d/9df36259343cc4680912716fb9d17276
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/ad/ad9c36700125a4cc29adfa1b77008863
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/ad/ad9c36700125a4cc29adfa1b77008863
+      projectPath: Library/metadata/ad/ad9c36700125a4cc29adfa1b77008863
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/af/af9561a84f5374ff4ab79b97f4454db0
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/af/af9561a84f5374ff4ab79b97f4454db0
+      projectPath: Library/metadata/af/af9561a84f5374ff4ab79b97f4454db0
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/c1/c16e04c28a842455ab759709515caebe
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/c1/c16e04c28a842455ab759709515caebe
+      projectPath: Library/metadata/c1/c16e04c28a842455ab759709515caebe
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/c4/c492d6d11d9c247e2834b31530ea08f7
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/c4/c492d6d11d9c247e2834b31530ea08f7
+      projectPath: Library/metadata/c4/c492d6d11d9c247e2834b31530ea08f7
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/dd/ddbfda2725d714b56b542fe462dd5df0
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/dd/ddbfda2725d714b56b542fe462dd5df0
+      projectPath: Library/metadata/dd/ddbfda2725d714b56b542fe462dd5df0
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/f7/f7098d4cac7e3409f9c629e6a9ad9a73
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/f7/f7098d4cac7e3409f9c629e6a9ad9a73
+      projectPath: Library/metadata/f7/f7098d4cac7e3409f9c629e6a9ad9a73
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/shadercompiler-UnityShaderCompiler0.log
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/shadercompiler-UnityShaderCompiler0.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Temp/UnityTempFile-147bdb4ceb111459a9ba8196aea592dd
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-147bdb4ceb111459a9ba8196aea592dd
+      projectPath: Temp/UnityTempFile-147bdb4ceb111459a9ba8196aea592dd
+      originalPath: Temp/UnityTempFile-214c7098371584aef9b47be9e37b6f48
+      status: 6
+      staged: 0
+    - path: Temp/UnityTempFile-19c8ac518cd0043ab8df0281cd43935d
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-19c8ac518cd0043ab8df0281cd43935d
+      projectPath: Temp/UnityTempFile-19c8ac518cd0043ab8df0281cd43935d
+      originalPath: Temp/UnityTempFile-4fbab94f133a24fd09986d3797dcf3a8
+      status: 6
+      staged: 0
+    - path: Temp/UnityTempFile-1f2230f5c8c5d4adaa994872490f1fd2
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-1f2230f5c8c5d4adaa994872490f1fd2
+      projectPath: Temp/UnityTempFile-1f2230f5c8c5d4adaa994872490f1fd2
+      originalPath: Temp/UnityTempFile-c678501cb1f6047cfa0aa825eca2ed8f
+      status: 6
+      staged: 0
+    - path: Temp/UnityTempFile-5d1eb6ea83a5b4ecabcc4dcdf1b4d0a3
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-5d1eb6ea83a5b4ecabcc4dcdf1b4d0a3
+      projectPath: Temp/UnityTempFile-5d1eb6ea83a5b4ecabcc4dcdf1b4d0a3
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp/UnityTempFile-6bc1981b9eb294adda42a35142e6ab70
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-6bc1981b9eb294adda42a35142e6ab70
+      projectPath: Temp/UnityTempFile-6bc1981b9eb294adda42a35142e6ab70
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp/UnityTempFile-7b4d533af4d1642b8b7c29990008d0bf
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-7b4d533af4d1642b8b7c29990008d0bf
+      projectPath: Temp/UnityTempFile-7b4d533af4d1642b8b7c29990008d0bf
+      originalPath: Temp/UnityTempFile-7f6a684a70a1a4215a173ceae29e9235
+      status: 6
+      staged: 0
+    - path: Temp/UnityTempFile-854de42963efc4b5c9756d647ffb0cc5
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-854de42963efc4b5c9756d647ffb0cc5
+      projectPath: Temp/UnityTempFile-854de42963efc4b5c9756d647ffb0cc5
+      originalPath: Temp/UnityTempFile-e80330ce9d79244529ed4932617ecc28
+      status: 6
+      staged: 0
+    - path: Temp/UnityTempFile-88e2fa7b178ed40f29dfd27ea99eb1a1
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-88e2fa7b178ed40f29dfd27ea99eb1a1
+      projectPath: Temp/UnityTempFile-88e2fa7b178ed40f29dfd27ea99eb1a1
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp/UnityTempFile-99bee5b9cfe374e5d8335cfd4e0931c9
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-99bee5b9cfe374e5d8335cfd4e0931c9
+      projectPath: Temp/UnityTempFile-99bee5b9cfe374e5d8335cfd4e0931c9
+      originalPath: Temp/UnityTempFile-6ac5a781b378d45059ec10936a4d1c47
+      status: 6
+      staged: 0
+    - path: Temp/UnityTempFile-b0bf45d53714a454b963132a88d46abd
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-b0bf45d53714a454b963132a88d46abd
+      projectPath: Temp/UnityTempFile-b0bf45d53714a454b963132a88d46abd
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp/UnityTempFile-ead7fb6e2ac9f47cb8a198220b036cbb
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-ead7fb6e2ac9f47cb8a198220b036cbb
+      projectPath: Temp/UnityTempFile-ead7fb6e2ac9f47cb8a198220b036cbb
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp/UnityTempFile-edc6eb5eebec344a993bf0a7b8f5f4b8
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-edc6eb5eebec344a993bf0a7b8f5f4b8
+      projectPath: Temp/UnityTempFile-edc6eb5eebec344a993bf0a7b8f5f4b8
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp/__Backupscenes/0.backup
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/__Backupscenes/0.backup
+      projectPath: Temp/__Backupscenes/0.backup
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: e91a9d66ae386498d0869df7e3c7888fe6cc9b0d
+    mergeA: 
+    mergeB: 
+    authorName: bovar20
+    authorEmail: shiningstarfilmsuk@hotmail.co.uk
+    commitEmail: shiningstarfilmsuk@hotmail.co.uk
+    commitName: bovar20
+    summary: Boss room set up part 2
+    description: Boss room set up part 2
+    timeString: 2018-11-07T21:01:10.000+00:00
+    commitTimeString: 2018-11-07T21:01:10.000+00:00
+    changes:
+    - path: Library/CrashedAssetImports.txt
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/CrashedAssetImports.txt
+      projectPath: Library/CrashedAssetImports.txt
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.dll
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/ScriptAssemblies/Assembly-CSharp.dll
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/00/004d70d21328c4e868f858f7f2b8b072
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/00/004d70d21328c4e868f858f7f2b8b072
+      projectPath: Library/metadata/00/004d70d21328c4e868f858f7f2b8b072
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Temp/UnityTempFile-b0bf45d53714a454b963132a88d46abd
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-b0bf45d53714a454b963132a88d46abd
+      projectPath: Temp/UnityTempFile-b0bf45d53714a454b963132a88d46abd
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: 42b0273c69b54c78f9a7a90dd58aa0a714ae7d47
+    mergeA: 
+    mergeB: 
+    authorName: bovar20
+    authorEmail: shiningstarfilmsuk@hotmail.co.uk
+    commitEmail: shiningstarfilmsuk@hotmail.co.uk
+    commitName: bovar20
+    summary: Boss room set up
+    description: Boss room set up
+    timeString: 2018-11-07T21:00:30.000+00:00
+    commitTimeString: 2018-11-07T21:00:30.000+00:00
+    changes:
+    - path: .vs/Kirsty-and-Co-V6/xs/UserPrefs.xml
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/.vs/Kirsty-and-Co-V6/xs/UserPrefs.xml
+      projectPath: .vs/Kirsty-and-Co-V6/xs/UserPrefs.xml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .vs/Kirsty-and-Co-V6/xs/sqlite3/storage.ide
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/.vs/Kirsty-and-Co-V6/xs/sqlite3/storage.ide
+      projectPath: .vs/Kirsty-and-Co-V6/xs/sqlite3/storage.ide
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .vs/Kirsty-and-Co-V6/xs/sqlite3/storage.ide-shm
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/.vs/Kirsty-and-Co-V6/xs/sqlite3/storage.ide-shm
+      projectPath: .vs/Kirsty-and-Co-V6/xs/sqlite3/storage.ide-shm
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .vs/Kirsty-and-Co-V6/xs/sqlite3/storage.ide-wal
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/.vs/Kirsty-and-Co-V6/xs/sqlite3/storage.ide-wal
+      projectPath: .vs/Kirsty-and-Co-V6/xs/sqlite3/storage.ide-wal
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Animation/Character/Enemies/Bull Steve/Bull Steve Running.anim
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Animation/Character/Enemies/Bull
+        Steve/Bull Steve Running.anim
+      projectPath: Assets/Animation/Character/Enemies/Bull Steve/Bull Steve Running.anim
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Animation/Character/Players/Kirsty/Kirsty Jumping.anim
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Animation/Character/Players/Kirsty/Kirsty
+        Jumping.anim
+      projectPath: Assets/Animation/Character/Players/Kirsty/Kirsty Jumping.anim
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Animation/Character/Players/Kirsty/Kirsty Running Animation.anim
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Animation/Character/Players/Kirsty/Kirsty
+        Running Animation.anim
+      projectPath: Assets/Animation/Character/Players/Kirsty/Kirsty Running Animation.anim
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Animation/Character/Players/Kirsty/Kirsty.controller
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Animation/Character/Players/Kirsty/Kirsty.controller
+      projectPath: Assets/Animation/Character/Players/Kirsty/Kirsty.controller
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/PreFabs/Enemies/BullSteve (AI charge on area).prefab
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/PreFabs/Enemies/BullSteve
+        (AI charge on area).prefab
+      projectPath: Assets/PreFabs/Enemies/BullSteve (AI charge on area).prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/PreFabs/Enemies/Drillmoley Rob.prefab
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/PreFabs/Enemies/Drillmoley
+        Rob.prefab
+      projectPath: Assets/PreFabs/Enemies/Drillmoley Rob.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/PreFabs/Enemies/OwlBot Ben.prefab
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/PreFabs/Enemies/OwlBot
+        Ben.prefab
+      projectPath: Assets/PreFabs/Enemies/OwlBot Ben.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scenes/Testing/Wild Woodland's Healthbar test.unity
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Scenes/Testing/Wild
+        Woodland's Healthbar test.unity
+      projectPath: Assets/Scenes/Testing/Wild Woodland's Healthbar test.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/BullSteveAreaEnemyHealthManager.cs
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Scripts/BullSteveAreaEnemyHealthManager.cs
+      projectPath: Assets/Scripts/BullSteveAreaEnemyHealthManager.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/CharacterController2D.cs
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Scripts/CharacterController2D.cs
+      projectPath: Assets/Scripts/CharacterController2D.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/ComingUpBossHitbox.cs
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Scripts/ComingUpBossHitbox.cs
+      projectPath: Assets/Scripts/ComingUpBossHitbox.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scripts/ComingUpBossHitbox.cs.meta
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Scripts/ComingUpBossHitbox.cs.meta
+      projectPath: Assets/Scripts/ComingUpBossHitbox.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scripts/EnemyHealthManagerDrillRob.cs
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Scripts/EnemyHealthManagerDrillRob.cs
+      projectPath: Assets/Scripts/EnemyHealthManagerDrillRob.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/LevelManager.cs
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Scripts/LevelManager.cs
+      projectPath: Assets/Scripts/LevelManager.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/OwlBotBenEnemyHealthManager.cs
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Scripts/OwlBotBenEnemyHealthManager.cs
+      projectPath: Assets/Scripts/OwlBotBenEnemyHealthManager.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/PlayerMovement.cs
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Scripts/PlayerMovement.cs
+      projectPath: Assets/Scripts/PlayerMovement.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/ProjectileController.cs
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Scripts/ProjectileController.cs
+      projectPath: Assets/Scripts/ProjectileController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/TreeHealth.cs
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Scripts/TreeHealth.cs
+      projectPath: Assets/Scripts/TreeHealth.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/WFStop1BossTime.cs
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Scripts/WFStop1BossTime.cs
+      projectPath: Assets/Scripts/WFStop1BossTime.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scripts/WFStop1BossTime.cs.meta
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Scripts/WFStop1BossTime.cs.meta
+      projectPath: Assets/Scripts/WFStop1BossTime.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/CrashedAssetImports.txt
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/CrashedAssetImports.txt
+      projectPath: Library/CrashedAssetImports.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/CurrentLayout.dwlt
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/CurrentLayout.dwlt
+      projectPath: Library/CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/EditorInstance.json
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/EditorInstance.json
+      projectPath: Library/EditorInstance.json
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/GridBrush/UnityEditor.GridBrush.asset
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/GridBrush/UnityEditor.GridBrush.asset
+      projectPath: Library/GridBrush/UnityEditor.GridBrush.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/InspectorExpandedItems.asset
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/InspectorExpandedItems.asset
+      projectPath: Library/InspectorExpandedItems.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.dll
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/ScriptAssemblies/Assembly-CSharp.dll
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll.mdb
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll.mdb
+      projectPath: Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll.mdb
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll.mdb
+      projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Unity.TextMeshPro.dll.mdb
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/ScriptAssemblies/Unity.TextMeshPro.dll.mdb
+      projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/UnityEditor.StandardEvents.dll.mdb
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll.mdb
+      projectPath: Library/ScriptAssemblies/UnityEditor.StandardEvents.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/TilemapEditorUserSettings.asset
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/TilemapEditorUserSettings.asset
+      projectPath: Library/TilemapEditorUserSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/00/004d70d21328c4e868f858f7f2b8b072
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/00/004d70d21328c4e868f858f7f2b8b072
+      projectPath: Library/metadata/00/004d70d21328c4e868f858f7f2b8b072
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/00/004d70d21328c4e868f858f7f2b8b072.info
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/00/004d70d21328c4e868f858f7f2b8b072.info
+      projectPath: Library/metadata/00/004d70d21328c4e868f858f7f2b8b072.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9
+      projectPath: Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/13/136dc24f151211d438acee17aff4e934
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/13/136dc24f151211d438acee17aff4e934
+      projectPath: Library/metadata/13/136dc24f151211d438acee17aff4e934
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/18/184188f9d73a54520a0d79b490a526ea
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/18/184188f9d73a54520a0d79b490a526ea
+      projectPath: Library/metadata/18/184188f9d73a54520a0d79b490a526ea
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/1b/1b632b68aaa394193ba589b9aa47ed10
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/1b/1b632b68aaa394193ba589b9aa47ed10
+      projectPath: Library/metadata/1b/1b632b68aaa394193ba589b9aa47ed10
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/20/20fec8d259e604a438ce88b3263f0855
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/20/20fec8d259e604a438ce88b3263f0855
+      projectPath: Library/metadata/20/20fec8d259e604a438ce88b3263f0855
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/37/37f4264e507fe4576b1d0a57a149acee
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/37/37f4264e507fe4576b1d0a57a149acee
+      projectPath: Library/metadata/37/37f4264e507fe4576b1d0a57a149acee
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/39/3949046362263490882c4d9696931220
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/39/3949046362263490882c4d9696931220
+      projectPath: Library/metadata/39/3949046362263490882c4d9696931220
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/54/54833e41ba6fe4ab0ac4a3dde242f732
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/54/54833e41ba6fe4ab0ac4a3dde242f732
+      projectPath: Library/metadata/54/54833e41ba6fe4ab0ac4a3dde242f732
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/5e/5e20fad053b5f449a880838dc00899f2
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/5e/5e20fad053b5f449a880838dc00899f2
+      projectPath: Library/metadata/5e/5e20fad053b5f449a880838dc00899f2
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/68/68938408fa6f04c6a90bce889aa9149c
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/68/68938408fa6f04c6a90bce889aa9149c
+      projectPath: Library/metadata/68/68938408fa6f04c6a90bce889aa9149c
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/74/74d2bc012ee1b4e30bc817ec2dbd157c
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/74/74d2bc012ee1b4e30bc817ec2dbd157c
+      projectPath: Library/metadata/74/74d2bc012ee1b4e30bc817ec2dbd157c
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/76/765920c58617c4a77b363746f986bc43
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/76/765920c58617c4a77b363746f986bc43
+      projectPath: Library/metadata/76/765920c58617c4a77b363746f986bc43
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/79/79696e91281f84da0b97475fc176d38f
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/79/79696e91281f84da0b97475fc176d38f
+      projectPath: Library/metadata/79/79696e91281f84da0b97475fc176d38f
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/9d/9df36259343cc4680912716fb9d17276
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/9d/9df36259343cc4680912716fb9d17276
+      projectPath: Library/metadata/9d/9df36259343cc4680912716fb9d17276
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/ad/ad9c36700125a4cc29adfa1b77008863
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/ad/ad9c36700125a4cc29adfa1b77008863
+      projectPath: Library/metadata/ad/ad9c36700125a4cc29adfa1b77008863
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/af/af9561a84f5374ff4ab79b97f4454db0
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/af/af9561a84f5374ff4ab79b97f4454db0
+      projectPath: Library/metadata/af/af9561a84f5374ff4ab79b97f4454db0
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/b5/b5f250e9a00344b07937576f858345b2
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/b5/b5f250e9a00344b07937576f858345b2
+      projectPath: Library/metadata/b5/b5f250e9a00344b07937576f858345b2
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/c1/c16e04c28a842455ab759709515caebe
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/c1/c16e04c28a842455ab759709515caebe
+      projectPath: Library/metadata/c1/c16e04c28a842455ab759709515caebe
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/c4/c492d6d11d9c247e2834b31530ea08f7
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/c4/c492d6d11d9c247e2834b31530ea08f7
+      projectPath: Library/metadata/c4/c492d6d11d9c247e2834b31530ea08f7
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/dd/ddbfda2725d714b56b542fe462dd5df0
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/dd/ddbfda2725d714b56b542fe462dd5df0
+      projectPath: Library/metadata/dd/ddbfda2725d714b56b542fe462dd5df0
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/e2/e25bc1eb55bd1496dad47e963733cde3
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/e2/e25bc1eb55bd1496dad47e963733cde3
+      projectPath: Library/metadata/e2/e25bc1eb55bd1496dad47e963733cde3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/ed/edf546986995f4a009710f660744bfc5.info
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/ed/edf546986995f4a009710f660744bfc5.info
+      projectPath: Library/metadata/ed/edf546986995f4a009710f660744bfc5.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/f7/f7098d4cac7e3409f9c629e6a9ad9a73
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/f7/f7098d4cac7e3409f9c629e6a9ad9a73
+      projectPath: Library/metadata/f7/f7098d4cac7e3409f9c629e6a9ad9a73
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/f7/f7098d4cac7e3409f9c629e6a9ad9a73.info
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/f7/f7098d4cac7e3409f9c629e6a9ad9a73.info
+      projectPath: Library/metadata/f7/f7098d4cac7e3409f9c629e6a9ad9a73.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/shadercompiler-UnityShaderCompiler0.log
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/shadercompiler-UnityShaderCompiler0.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Temp/UnityLockfile
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityLockfile
+      projectPath: Temp/UnityLockfile
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/UnityTempFile-214c7098371584aef9b47be9e37b6f48
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-214c7098371584aef9b47be9e37b6f48
+      projectPath: Temp/UnityTempFile-214c7098371584aef9b47be9e37b6f48
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/UnityTempFile-4fbab94f133a24fd09986d3797dcf3a8
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-4fbab94f133a24fd09986d3797dcf3a8
+      projectPath: Temp/UnityTempFile-4fbab94f133a24fd09986d3797dcf3a8
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/UnityTempFile-5d1eb6ea83a5b4ecabcc4dcdf1b4d0a3
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-5d1eb6ea83a5b4ecabcc4dcdf1b4d0a3
+      projectPath: Temp/UnityTempFile-5d1eb6ea83a5b4ecabcc4dcdf1b4d0a3
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/UnityTempFile-6ac5a781b378d45059ec10936a4d1c47
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-6ac5a781b378d45059ec10936a4d1c47
+      projectPath: Temp/UnityTempFile-6ac5a781b378d45059ec10936a4d1c47
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/UnityTempFile-6bc1981b9eb294adda42a35142e6ab70
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-6bc1981b9eb294adda42a35142e6ab70
+      projectPath: Temp/UnityTempFile-6bc1981b9eb294adda42a35142e6ab70
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/UnityTempFile-7f6a684a70a1a4215a173ceae29e9235
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-7f6a684a70a1a4215a173ceae29e9235
+      projectPath: Temp/UnityTempFile-7f6a684a70a1a4215a173ceae29e9235
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/UnityTempFile-88e2fa7b178ed40f29dfd27ea99eb1a1
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-88e2fa7b178ed40f29dfd27ea99eb1a1
+      projectPath: Temp/UnityTempFile-88e2fa7b178ed40f29dfd27ea99eb1a1
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/UnityTempFile-c678501cb1f6047cfa0aa825eca2ed8f
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-c678501cb1f6047cfa0aa825eca2ed8f
+      projectPath: Temp/UnityTempFile-c678501cb1f6047cfa0aa825eca2ed8f
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/UnityTempFile-e80330ce9d79244529ed4932617ecc28
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-e80330ce9d79244529ed4932617ecc28
+      projectPath: Temp/UnityTempFile-e80330ce9d79244529ed4932617ecc28
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/UnityTempFile-ead7fb6e2ac9f47cb8a198220b036cbb
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-ead7fb6e2ac9f47cb8a198220b036cbb
+      projectPath: Temp/UnityTempFile-ead7fb6e2ac9f47cb8a198220b036cbb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/UnityTempFile-edc6eb5eebec344a993bf0a7b8f5f4b8
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-edc6eb5eebec344a993bf0a7b8f5f4b8
+      projectPath: Temp/UnityTempFile-edc6eb5eebec344a993bf0a7b8f5f4b8
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp/__Backupscenes/0.backup
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/__Backupscenes/0.backup
+      projectPath: Temp/__Backupscenes/0.backup
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 89de12e7a8a66789de3c7ebf4b9b0171f7e672dc
+    mergeA: 
+    mergeB: 
+    authorName: Stuart Maiden
+    authorEmail: stuartmaiden@studio2.local
+    commitEmail: stuartmaiden@studio2.local
+    commitName: Stuart Maiden
+    summary: Flicker done
+    description: Flicker done
+    timeString: 2018-11-01T18:25:55.000+00:00
+    commitTimeString: 2018-11-01T18:25:55.000+00:00
+    changes:
+    - path: Assets/Scenes/Testing/Wild Woodland's Healthbar test.unity
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Scenes/Testing/Wild
+        Woodland's Healthbar test.unity
+      projectPath: Assets/Scenes/Testing/Wild Woodland's Healthbar test.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/HurtPlayerOnContact.cs
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Scripts/HurtPlayerOnContact.cs
+      projectPath: Assets/Scripts/HurtPlayerOnContact.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/PlayerMovement.cs
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Scripts/PlayerMovement.cs
+      projectPath: Assets/Scripts/PlayerMovement.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/CrashedAssetImports.txt
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/CrashedAssetImports.txt
+      projectPath: Library/CrashedAssetImports.txt
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library/CurrentLayout.dwlt
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/CurrentLayout.dwlt
+      projectPath: Library/CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/EditorInstance.json
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/EditorInstance.json
+      projectPath: Library/EditorInstance.json
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.dll
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/ScriptAssemblies/Assembly-CSharp.dll
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/expandedItems
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/expandedItems
+      projectPath: Library/expandedItems
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/5e/5e20fad053b5f449a880838dc00899f2
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/5e/5e20fad053b5f449a880838dc00899f2
+      projectPath: Library/metadata/5e/5e20fad053b5f449a880838dc00899f2
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/d4/d4aec71fe5b7a48bc82da53693c08eaf
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/d4/d4aec71fe5b7a48bc82da53693c08eaf
+      projectPath: Library/metadata/d4/d4aec71fe5b7a48bc82da53693c08eaf
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/shadercompiler-UnityShaderCompiler0.log
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/shadercompiler-UnityShaderCompiler0.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Temp/UnityLockfile
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityLockfile
+      projectPath: Temp/UnityLockfile
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp/UnityTempFile-062767154dab645cca5fc9b493aca39b
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-062767154dab645cca5fc9b493aca39b
+      projectPath: Temp/UnityTempFile-062767154dab645cca5fc9b493aca39b
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp/UnityTempFile-3db5e489ab85a48219f69a4f48e0f4cf
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-3db5e489ab85a48219f69a4f48e0f4cf
+      projectPath: Temp/UnityTempFile-3db5e489ab85a48219f69a4f48e0f4cf
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp/UnityTempFile-3fbc2fd1348c041dea157dec031e27c7
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-3fbc2fd1348c041dea157dec031e27c7
+      projectPath: Temp/UnityTempFile-3fbc2fd1348c041dea157dec031e27c7
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp/UnityTempFile-6e1c6ca7d211648d198a61df02d6d363
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-6e1c6ca7d211648d198a61df02d6d363
+      projectPath: Temp/UnityTempFile-6e1c6ca7d211648d198a61df02d6d363
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp/UnityTempFile-a44a00d98f9ed47688c3f456de04a334
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-a44a00d98f9ed47688c3f456de04a334
+      projectPath: Temp/UnityTempFile-a44a00d98f9ed47688c3f456de04a334
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp/UnityTempFile-fb9e5ba2af3234255a5bba7edd7bcfed
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-fb9e5ba2af3234255a5bba7edd7bcfed
+      projectPath: Temp/UnityTempFile-fb9e5ba2af3234255a5bba7edd7bcfed
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp/__Backupscenes/0.backup
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Temp/__Backupscenes/0.backup
+      projectPath: Temp/__Backupscenes/0.backup
+      originalPath: 
+      status: 5
+      staged: 0
   - commitID: be7f69413e8be0b3bc5bd4f9dad53681036aed52
     mergeA: 
     mergeB: 
