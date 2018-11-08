@@ -12,9 +12,172 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-11-08T16:45:33.502+00:00
+  lastUpdatedAtString: 2018-11-08T17:34:26.803+00:00
   initializedAtString: 2018-11-08T16:45:33.502+00:00
   log:
+  - commitID: aa602a595caeb0a2f9aecd9d3b5a76c9f03cb331
+    mergeA: 
+    mergeB: 
+    authorName: Stuart Maiden
+    authorEmail: stuartmaiden@studio2.local
+    commitEmail: stuartmaiden@studio2.local
+    commitName: Stuart Maiden
+    summary: Boss development 2
+    description: Boss development 2
+    timeString: 2018-11-08T17:32:53.000+00:00
+    commitTimeString: 2018-11-08T17:32:53.000+00:00
+    changes:
+    - path: Assets/Animation/Character/Bosses.meta
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Animation/Character/Bosses.meta
+      projectPath: Assets/Animation/Character/Bosses.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Animation/Character/Bosses/Holly (Boss).controller
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Animation/Character/Bosses/Holly
+        (Boss).controller
+      projectPath: Assets/Animation/Character/Bosses/Holly (Boss).controller
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Animation/Character/Bosses/Holly (Boss).controller.meta
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Animation/Character/Bosses/Holly
+        (Boss).controller.meta
+      projectPath: Assets/Animation/Character/Bosses/Holly (Boss).controller.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Animation/Character/Bosses/Holly Boss Stance.anim
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Animation/Character/Bosses/Holly
+        Boss Stance.anim
+      projectPath: Assets/Animation/Character/Bosses/Holly Boss Stance.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Animation/Character/Bosses/Holly Boss Stance.anim.meta
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Animation/Character/Bosses/Holly
+        Boss Stance.anim.meta
+      projectPath: Assets/Animation/Character/Bosses/Holly Boss Stance.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Animation/Character/Bosses/Holly Whirlwind Attack.anim
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Animation/Character/Bosses/Holly
+        Whirlwind Attack.anim
+      projectPath: Assets/Animation/Character/Bosses/Holly Whirlwind Attack.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Animation/Character/Bosses/Holly Whirlwind Attack.anim.meta
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Animation/Character/Bosses/Holly
+        Whirlwind Attack.anim.meta
+      projectPath: Assets/Animation/Character/Bosses/Holly Whirlwind Attack.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scenes/Testing/Wild Woodland's Healthbar test.unity
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Assets/Scenes/Testing/Wild
+        Woodland's Healthbar test.unity
+      projectPath: Assets/Scenes/Testing/Wild Woodland's Healthbar test.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/CrashedAssetImports.txt
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/CrashedAssetImports.txt
+      projectPath: Library/CrashedAssetImports.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/29/29c79fddedadf415c96bf4abe9c7bdb3
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/29/29c79fddedadf415c96bf4abe9c7bdb3
+      projectPath: Library/metadata/29/29c79fddedadf415c96bf4abe9c7bdb3
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/29/29c79fddedadf415c96bf4abe9c7bdb3.info
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/29/29c79fddedadf415c96bf4abe9c7bdb3.info
+      projectPath: Library/metadata/29/29c79fddedadf415c96bf4abe9c7bdb3.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/2c/2c339949a5ee14f8e867d70a50eef82f
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/2c/2c339949a5ee14f8e867d70a50eef82f
+      projectPath: Library/metadata/2c/2c339949a5ee14f8e867d70a50eef82f
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/2c/2c339949a5ee14f8e867d70a50eef82f.info
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/2c/2c339949a5ee14f8e867d70a50eef82f.info
+      projectPath: Library/metadata/2c/2c339949a5ee14f8e867d70a50eef82f.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/74/7491b18ff9b5d4d969666e607e8602d9
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/74/7491b18ff9b5d4d969666e607e8602d9
+      projectPath: Library/metadata/74/7491b18ff9b5d4d969666e607e8602d9
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/74/7491b18ff9b5d4d969666e607e8602d9.info
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/74/7491b18ff9b5d4d969666e607e8602d9.info
+      projectPath: Library/metadata/74/7491b18ff9b5d4d969666e607e8602d9.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/7f/7f51ede9ce460445fa8c7a514621143c
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/7f/7f51ede9ce460445fa8c7a514621143c
+      projectPath: Library/metadata/7f/7f51ede9ce460445fa8c7a514621143c
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/metadata/7f/7f51ede9ce460445fa8c7a514621143c.info
+      fullPath: /Users/stuartmaiden/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/7f/7f51ede9ce460445fa8c7a514621143c.info
+      projectPath: Library/metadata/7f/7f51ede9ce460445fa8c7a514621143c.info
+      originalPath: 
+      status: 4
+      staged: 0
   - commitID: a717b4bff2e04e9458d692dc07b95054f8752bb1
     mergeA: 
     mergeB: 
