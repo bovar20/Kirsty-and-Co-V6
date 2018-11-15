@@ -8,9 +8,12 @@ public class WFStop1BossTime : MonoBehaviour {
 
     public GameObject Boundaryleft;
 
+    public DrillmoelyHollyBossAI Hollyai;
+
 	// Use this for initialization
 	void Start () {
         cambound = FindObjectOfType<CameraFollowBound>();
+        Hollyai = FindObjectOfType<DrillmoelyHollyBossAI>();
 	}
 	
 	// Update is called once per frame
@@ -25,6 +28,7 @@ public class WFStop1BossTime : MonoBehaviour {
             Boundaryleft.SetActive(true);
             cambound.XMinValue = 604.5f;
             cambound.XMaxValue = 604.5f;
+            Hollyai.StartCoroutine("StartingStance");
             Destroy(gameObject);
         }
     }

@@ -35,6 +35,7 @@ public class ComingUpBossHitbox : MonoBehaviour {
             Boundaryleft.SetActive(true);
             cambound.XMinValue = 570f;
             cambound.YMinValue = -14f;
+            cambound.YMaxValue = -11.8f;
             CameraFix = true;
         }
 	}

@@ -33,6 +33,10 @@ public class LevelManager : MonoBehaviour {
 
     public PlayerMovement playerMove;
 
+    public bool BarrierDown;
+
+    public GameObject Barrier;
+
 
 	//public TimeManager timeManager;
 
@@ -49,6 +53,9 @@ public class LevelManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if(BarrierDown){
+            Destroy(Barrier);
+        }
 	}
 
 
