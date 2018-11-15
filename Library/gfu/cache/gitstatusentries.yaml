@@ -12,6 +12,200 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-11-15T00:12:58.876+00:00
-  initializedAtString: 2018-11-14T15:07:09.031+00:00
-  entries: []
+  lastUpdatedAtString: 2018-11-15T02:14:22.515+00:00
+  initializedAtString: 2018-11-15T00:41:18.504+00:00
+  entries:
+  - path: Assets/Animation/Character/Players/Kirsty/Kirsty Dead Animation final.anim
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Assets/Animation/Character/Players/Kirsty/Kirsty
+      Dead Animation final.anim
+    projectPath: Assets/Animation/Character/Players/Kirsty/Kirsty Dead Animation final.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Animation/Character/Players/Kirsty/Kirsty Dead Animation final.anim.meta
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Assets/Animation/Character/Players/Kirsty/Kirsty
+      Dead Animation final.anim.meta
+    projectPath: Assets/Animation/Character/Players/Kirsty/Kirsty Dead Animation final.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Animation/Character/Players/Kirsty/Kirsty Death Animation.controller
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Assets/Animation/Character/Players/Kirsty/Kirsty
+      Death Animation.controller
+    projectPath: Assets/Animation/Character/Players/Kirsty/Kirsty Death Animation.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Animation/Character/Players/Kirsty/Kirsty Death Animation.controller.meta
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Assets/Animation/Character/Players/Kirsty/Kirsty
+      Death Animation.controller.meta
+    projectPath: Assets/Animation/Character/Players/Kirsty/Kirsty Death Animation.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/PreFabs/Players/Kirsty Dead Animation.prefab
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Assets/PreFabs/Players/Kirsty
+      Dead Animation.prefab
+    projectPath: Assets/PreFabs/Players/Kirsty Dead Animation.prefab
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets/PreFabs/Players/Kirsty Dead Animation.prefab.meta
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Assets/PreFabs/Players/Kirsty
+      Dead Animation.prefab.meta
+    projectPath: Assets/PreFabs/Players/Kirsty Dead Animation.prefab.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets/PreFabs/Players/Kirsty Death Animation.prefab
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Assets/PreFabs/Players/Kirsty
+      Death Animation.prefab
+    projectPath: Assets/PreFabs/Players/Kirsty Death Animation.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/PreFabs/Players/Kirsty Death Animation.prefab.meta
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Assets/PreFabs/Players/Kirsty
+      Death Animation.prefab.meta
+    projectPath: Assets/PreFabs/Players/Kirsty Death Animation.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/assetDatabase3
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Library/assetDatabase3
+    projectPath: Library/assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/CrashedAssetImports.txt
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Library/CrashedAssetImports.txt
+    projectPath: Library/CrashedAssetImports.txt
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/EditorInstance.json
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Library/EditorInstance.json
+    projectPath: Library/EditorInstance.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/gfu/cache/gitlocks.yaml
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/gitlocks.yaml
+    projectPath: Library/gfu/cache/gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gitstatusentries.yaml
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/gitstatusentries.yaml
+    projectPath: Library/gfu/cache/gitstatusentries.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gittrackingstatus.yaml
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/gittrackingstatus.yaml
+    projectPath: Library/gfu/cache/gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/repoinfo.yaml
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Library/gfu/cache/repoinfo.yaml
+    projectPath: Library/gfu/cache/repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/0c/0c6ac803b20574eb9aad85b2b42b151a
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/0c/0c6ac803b20574eb9aad85b2b42b151a
+    projectPath: Library/metadata/0c/0c6ac803b20574eb9aad85b2b42b151a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/0c/0c6ac803b20574eb9aad85b2b42b151a.info
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/0c/0c6ac803b20574eb9aad85b2b42b151a.info
+    projectPath: Library/metadata/0c/0c6ac803b20574eb9aad85b2b42b151a.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/10/10a7de6f9f5c44a48bf0076470f547ed
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/10/10a7de6f9f5c44a48bf0076470f547ed
+    projectPath: Library/metadata/10/10a7de6f9f5c44a48bf0076470f547ed
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/10/10a7de6f9f5c44a48bf0076470f547ed.info
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/10/10a7de6f9f5c44a48bf0076470f547ed.info
+    projectPath: Library/metadata/10/10a7de6f9f5c44a48bf0076470f547ed.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/5c/5c35fd1ed1d954a9489dedfb287be7a2
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/5c/5c35fd1ed1d954a9489dedfb287be7a2
+    projectPath: Library/metadata/5c/5c35fd1ed1d954a9489dedfb287be7a2
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/5c/5c35fd1ed1d954a9489dedfb287be7a2.info
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/5c/5c35fd1ed1d954a9489dedfb287be7a2.info
+    projectPath: Library/metadata/5c/5c35fd1ed1d954a9489dedfb287be7a2.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/fe/fe6f8aa886ff44235b7786d2e71eaf5a
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/fe/fe6f8aa886ff44235b7786d2e71eaf5a
+    projectPath: Library/metadata/fe/fe6f8aa886ff44235b7786d2e71eaf5a
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/fe/fe6f8aa886ff44235b7786d2e71eaf5a.info
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Library/metadata/fe/fe6f8aa886ff44235b7786d2e71eaf5a.info
+    projectPath: Library/metadata/fe/fe6f8aa886ff44235b7786d2e71eaf5a.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/shadercompiler-UnityShaderCompiler0.log
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Library/shadercompiler-UnityShaderCompiler0.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Temp/__Backupscenes/0.backup
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Temp/__Backupscenes/0.backup
+    projectPath: Temp/__Backupscenes/0.backup
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityLockfile
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityLockfile
+    projectPath: Temp/UnityLockfile
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-521394179d18d4f3b9fe5f2b5ace4de1
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-521394179d18d4f3b9fe5f2b5ace4de1
+    projectPath: Temp/UnityTempFile-521394179d18d4f3b9fe5f2b5ace4de1
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-90b48e72650b04f07b893caf2c1be6a2
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-90b48e72650b04f07b893caf2c1be6a2
+    projectPath: Temp/UnityTempFile-90b48e72650b04f07b893caf2c1be6a2
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-9d60331d71f4b41b998f8e02d29ff3a1
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-9d60331d71f4b41b998f8e02d29ff3a1
+    projectPath: Temp/UnityTempFile-9d60331d71f4b41b998f8e02d29ff3a1
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-e61b2796b93ec4aa19b55b0b8c4b7e53
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-e61b2796b93ec4aa19b55b0b8c4b7e53
+    projectPath: Temp/UnityTempFile-e61b2796b93ec4aa19b55b0b8c4b7e53
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-fce3ea43a26f04dea9074877d06c8b0e
+    fullPath: /Users/owner1/Documents/GitHub/Kirsty-and-Co-V6/Temp/UnityTempFile-fce3ea43a26f04dea9074877d06c8b0e
+    projectPath: Temp/UnityTempFile-fce3ea43a26f04dea9074877d06c8b0e
+    originalPath: 
+    status: 1
+    staged: 0
