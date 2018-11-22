@@ -10,9 +10,13 @@ public class ComingUpBossHitbox : MonoBehaviour {
 
     private bool CameraFix = false;
 
+    public LevelManager levelman;
+
 	// Use this for initialization
 	void Start () {
         cambound = FindObjectOfType<CameraFollowBound>();
+
+        levelman = FindObjectOfType<LevelManager>();
 	}
 	
 	// Update is called once per frame
@@ -25,18 +29,23 @@ public class ComingUpBossHitbox : MonoBehaviour {
                 cambound.YMinValue = -11.8f;
             }
             if(cambound.XMinValue >= 570f && cambound.YMinValue >= -11.8f){
-                Destroy(gameObject);
+                CameraFix = false;
+                gameObject.SetActive(false);
             }
         }
 	}
 
-	void OnTriggerEnter2D(Collider2D other){
+	void OnTriggerStay2D(Collider2D other){
         if (other.tag == "Kirsty_Player" && !CameraFix){
             Boundaryleft.SetActive(true);
             cambound.XMinValue = 570f;
-            cambound.YMinValue = -14f;
             cambound.YMaxValue = -11.8f;
-            CameraFix = true;
+            if(levelman.RespawnSet){
+                cambound.YMinValue = -11.8f;
+            } else {
+                cambound.YMinValue = -14f;
+                CameraFix = true;
+            }
         }
 	}
 }

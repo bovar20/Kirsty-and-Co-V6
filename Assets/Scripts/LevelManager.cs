@@ -23,8 +23,6 @@ public class LevelManager : MonoBehaviour {
 
     public GameObject DeadGameObject;
 
-    public bool enemyRespawn = false;
-
     public bool DrillmoleyRobRespawnPos = false;
 
     public bool OwlBotRespawn = false;
@@ -33,9 +31,17 @@ public class LevelManager : MonoBehaviour {
 
     public PlayerMovement playerMove;
 
+    public CameraFollowBound cambound;
+
+    public GameObject ComingUpToBoss;
+
+    public DrillmoelyHollyBossAI HollyAI;
+
     public bool BarrierDown;
 
     public GameObject Barrier;
+
+    public bool RespawnSet;
 
 
 	//public TimeManager timeManager;
@@ -48,13 +54,18 @@ public class LevelManager : MonoBehaviour {
 
         playerMove = FindObjectOfType<PlayerMovement>();
 
-		//timeManager = FindObjectOfType<TimeManager> ();
-	}
+        cambound = FindObjectOfType<CameraFollowBound>();
+
+        HollyAI = FindObjectOfType<DrillmoelyHollyBossAI>();
+
+        //timeManager = FindObjectOfType<TimeManager> ();
+    }
 	
 	// Update is called once per frame
 	void Update () {
         if(BarrierDown){
-            Destroy(Barrier);
+            Barrier.SetActive(false);
+            cambound.XMaxValue = 650f;
         }
 	}
 
@@ -69,6 +80,7 @@ public class LevelManager : MonoBehaviour {
     {
         player.gameObject.SetActive(false);
         playerMove.player_hit = false;
+
         gravityStore = player.GetComponent<Rigidbody2D>().gravityScale;
         Instantiate(DeadGameObject, player.transform.position, player.transform.rotation);
         yield return new WaitForSeconds(2);
@@ -87,7 +99,6 @@ public class LevelManager : MonoBehaviour {
         if (!player.m_FacingRight){
             player.Flip();
         }
-        enemyRespawn = true;
 		player.GetComponent<Rigidbody2D> ().gravityScale = gravityStore;
         player.transform.position = currentCheckpoint.transform.position;
         player.enabled = true;
@@ -97,6 +108,18 @@ public class LevelManager : MonoBehaviour {
         healthManager.FullHealth ();
 		healthManager.isDead = false;
 		ScoreManager.score = 0;
+        cambound.XMinValue = 1.48f;
+        cambound.XMaxValue = 650f;
+        cambound.YMinValue = -28.01f;
+        cambound.YMaxValue = 39.7f;
+        HollyAI.Respawn = true;
+        RespawnSet = true;
+        playerMove.knockbackCount = 0.7f;
+        playerMove.knockback = 2;
+        playerMove.knockFromRight = false;
+        playerMove.NoControl = false;
+        ComingUpToBoss.SetActive(true);
+
         //Instantiate (respawnParticle, currentCheckpoint.transform.position, currentCheckpoint.transform.rotation);
         //timeManager.ResetTime ();
     }

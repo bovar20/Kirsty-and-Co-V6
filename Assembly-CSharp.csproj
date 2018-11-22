@@ -82,6 +82,7 @@
     <Compile Include="Assets\Scripts\KirstyCustomBody.cs" />
     <Compile Include="Assets\Scripts\KirstyCustomHead.cs" />
     <Compile Include="Assets\Scripts\KirstyCustomLegs.cs" />
+    <Compile Include="Assets\Scripts\KirstyUIPortraitScript.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\OwlBotBenAI.cs" />

@@ -18,6 +18,8 @@ public class HealthManager : MonoBehaviour
 
     public bool isDead;
 
+    public KirstyUIPortraitScript KirstyUIPS;
+
     //private LifeManager lifeSystem;
 
     //private TimeManager theTime;
@@ -32,6 +34,8 @@ public class HealthManager : MonoBehaviour
         playerHealth = maxPlayerHealth;
 
         levelManager = FindObjectOfType<LevelManager>();
+
+        KirstyUIPS = FindObjectOfType<KirstyUIPortraitScript>();
 
         //lifeSystem = FindObjectOfType<LifeManager>();
 
@@ -57,6 +61,25 @@ public class HealthManager : MonoBehaviour
             playerHealth = maxPlayerHealth;
         }
 
+        if(playerHealth <= 12 && playerHealth > 6){
+            KirstyUIPS.kirstyokport = true;
+            KirstyUIPS.kirstyhappyport = false;
+        }
+
+        if(playerHealth <= 6 && playerHealth > 0){
+            KirstyUIPS.kirstynotgoodport = true;
+            KirstyUIPS.kirstyokport = false;
+        }
+
+        if(playerHealth <= 0){
+            KirstyUIPS.kirstysadport = true;
+            KirstyUIPS.kirstynotgoodport = false;
+        }
+
+        if(playerHealth >= 13){
+            KirstyUIPS.kirstyhappyport = true;
+            KirstyUIPS.kirstysadport = false;
+        }
 
         healthBar.value = playerHealth;
         //text.text = "" + playerHealth;
@@ -65,6 +88,7 @@ public class HealthManager : MonoBehaviour
     public static void HurtPlayer(int damageToGive)
     {
         playerHealth -= damageToGive;
+
     }
 
     public void FullHealth()
